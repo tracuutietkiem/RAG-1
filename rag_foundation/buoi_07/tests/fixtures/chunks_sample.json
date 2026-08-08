@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "demo_hierarchical_0001",
+    "strategy": "hierarchical",
+    "source": "demo_thong_tu_mo_phong.pdf",
+    "page_start": 1,
+    "page_end": 1,
+    "structure_path": "Chương I > Điều 1",
+    "text": "Điều 1. Phạm vi điều chỉnh. Văn bản mô phỏng này quy định nguyên tắc chung về tỷ lệ an toàn vốn áp dụng thử nghiệm cho mục đích huấn luyện, không phải văn bản pháp luật thật."
+  },
+  {
+    "chunk_id": "demo_hierarchical_0002",
+    "strategy": "hierarchical",
+    "source": "demo_thong_tu_mo_phong.pdf",
+    "page_start": 1,
+    "page_end": 1,
+    "structure_path": "Chương I > Điều 2",
+    "text": "Điều 2. Giải thích từ ngữ. Trong văn bản mô phỏng này, 'tỷ lệ an toàn vốn' được hiểu là tỷ lệ giữa vốn tự có và tổng tài sản có rủi ro theo ví dụ minh hoạ."
+  },
+  {
+    "chunk_id": "demo_hierarchical_0003",
+    "strategy": "hierarchical",
+    "source": "demo_thong_tu_mo_phong.pdf",
+    "page_start": 2,
+    "page_end": 3,
+    "structure_path": "Chương II > Điều 5",
+    "text": "Điều 5. Cơ cấu lại thời hạn trả nợ. Ví dụ minh hoạ: tổ chức tín dụng mô phỏng có thể xem xét cơ cấu lại thời hạn trả nợ khi khách hàng mô phỏng gặp khó khăn tạm thời trong việc trả nợ gốc hoặc lãi, trên cơ sở đánh giá khả năng trả nợ theo phương án cơ cấu lại."
+  },
+  {
+    "chunk_id": "demo_semantic_0001",
+    "strategy": "semantic",
+    "source": "demo_thong_tu_mo_phong.pdf",
+    "page_start": 4,
+    "page_end": 4,
+    "structure_path": null,
+    "text": "Đoạn văn mô phỏng: việc phân loại nợ và trích lập dự phòng rủi ro được thực hiện định kỳ, dựa trên đánh giá khả năng thu hồi của từng khoản cấp tín dụng mô phỏng, không phản ánh số liệu thật của bất kỳ tổ chức nào."
+  },
+  {
+    "chunk_id": "demo_fixed-size_0001",
+    "strategy": "fixed-size",
+    "source": "demo_thong_tu_mo_phong.pdf",
+    "page_start": 5,
+    "page_end": 6,
+    "structure_path": null,
+    "text": "Đoạn cắt cố định mô phỏng nối từ trang 5 sang trang 6: nội dung minh hoạ về nguyên tắc quản trị rủi ro tín dụng, không chứa số liệu nội bộ hay thông tin khách hàng thật, chỉ dùng để kiểm thử pipeline chunking và retrieval."
+  }
+]

@@ -1,0 +1,22 @@
+# Môi trường ảo Python — rất nặng (>700MB), cài lại được bằng requirements.txt
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets — TUYỆT ĐỐI không commit API key (LlamaParse, Gemini, ...)
+.env
+
+# Cơ sở dữ liệu vector cục bộ — sinh lại được bằng lệnh index, không cần lưu trong repo
+**/storage/chroma/
+
+# SQLite cục bộ (Buổi 06, khi không có PostgreSQL)
+*.db
+*.sqlite3
+
+# Cấu hình Streamlit cục bộ
+.streamlit/
+
+# Rác hệ điều hành
+.DS_Store
+Thumbs.db
