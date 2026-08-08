@@ -81,11 +81,61 @@ model Hugging Face, Chroma dùng `tempfile`, không dùng `.env` thật.
 | `hybrid` (BM25 + semantic + RRF) thật | PASS — union 37, overlap 3, latency bm25=164ms semantic=5288ms |
 | `query --mode hybrid` thật (có generation) | PASS — `status: answered`, citation trỏ đúng metadata thật, gate loại đúng chunk chỉ có BM25 |
 | `evaluate.py` trên dữ liệu thật | PASS — 3 mode, 10 câu hỏi, report JSON đã lưu trong `reports/` |
-| `hybrid_rerank` với model thật | **NOT RUN** — người dùng chọn bỏ qua để không tải model 2.2 GB; máy chỉ có CPU (`cuda available: False`) |
+| `hybrid_rerank` với model thật | **PASS** — đã tải và chạy `BAAI/bge-reranker-v2-m3` thật trên CPU, 2 lần, kết quả trùng khớp |
 
-Chỉ còn `hybrid_rerank` là NOT RUN. Tầng reranker đã có 26 test offline bằng
-mock, nhưng **chưa từng chạy với model thật** — không được coi là đã kiểm chứng
-thực tế.
+**Toàn bộ hạng mục đã chạy thật. Không còn NOT RUN.**
+
+### Kết quả rerank thật (Bước 07 — kiểm chứng thực tế)
+
+Câu hỏi: *"Vốn tự có của ngân hàng bao gồm những gì?"*
+Model: `BAAI/bge-reranker-v2-m3`, device CPU, 20 candidate → final top-5.
+
+| rerank # | rerank_score | RRF # | rank_change | chunk | nguồn |
+|---:|---:|---:|---:|---|---|
+| 1 | 0.9694 | 1 | 0 | `_0154` (tr.12-13) | bm25+semantic |
+| 2 | 0.9004 | 4 | **+2** | `_0153` (tr.12) | bm25+semantic |
+| 3 | 0.8055 | 6 | **+3** | `_0322` (tr.31-45) | semantic |
+| 4 | 0.7409 | 5 | +1 | `_0297` (tr.29) | bm25+semantic |
+| 5 | 0.6741 | 3 | **−2** | `_0350` (tr.52) | bm25+semantic |
+
+**Reranker cải thiện chất lượng thật, quan sát được:** hai chunk `_0154` và
+`_0153` chính là toàn bộ nội dung Điều 7 "Vốn tự có" — tức câu trả lời đúng.
+RRF xếp `_0154` hạng 1 nhưng để `_0153` tụt xuống hạng 4, chen `_0350` (trang
+52, không liên quan) vào hạng 3. Reranker kéo `_0153` lên hạng 2 và đẩy
+`_0350` xuống hạng 5, gom đúng cặp chunk của một điều khoản lên đầu.
+
+**Tính lặp lại:** chạy 2 lần cho thứ hạng và score **giống hệt** — reranker
+deterministic đúng như thiết kế.
+
+### Latency rerank: cảnh báo về cách đo
+
+| Lần chạy | rerank latency | Ghi chú |
+|---|---:|---|
+| Lần 1 (chưa có cache) | 1.947.818 ms (~32,5 phút) | **Bao gồm tải model 2,27 GB** ở ~800 kB/s |
+| Lần 2 (đã có cache) | 95.619 ms (~95,6 giây) | Nạp model từ đĩa + inference 20 cặp trên CPU |
+
+**Đây là khiếm khuyết trong cách đo của code:** mốc `time.perf_counter()` bao
+quanh lời gọi scorer, mà scorer gọi `load_reranker()` bên trong — nên lần chạy
+đầu tiên gộp cả thời gian tải và nạp model vào `rerank_latency_ms`. Chỉ số ở
+lần chạy thứ hai trở đi mới phản ánh chi phí thực tế. Muốn đo chuẩn cần tách
+riêng mốc thời gian nạp model và mốc inference — chưa làm.
+
+Ngay cả 95,6 giây cũng vẫn còn gồm thời gian nạp 2,27 GB từ đĩa vào RAM mỗi
+lần chạy tiến trình mới. Trong ứng dụng chạy liên tục (Streamlit), model được
+cache trong process nên từ câu hỏi thứ hai trở đi sẽ nhanh hơn nhiều.
+
+### So sánh chi phí giữa các tầng (lần chạy thứ 2)
+
+| Tầng | Latency | Ghi chú |
+|---|---:|---|
+| BM25 | 227 ms | Cục bộ, không mạng |
+| Semantic | 6.833 ms | Gọi Gemini embedding qua mạng |
+| RRF fusion | 0,2 ms | Chỉ tính toán trên rank |
+| Rerank | 95.619 ms | CPU, gồm nạp model |
+
+Rerank đắt hơn semantic khoảng 14 lần và hơn BM25 khoảng 420 lần. Trên máy chỉ
+có CPU, đây là đánh đổi rất lớn để lấy cải thiện thứ hạng — cần cân nhắc khi
+áp dụng thực tế.
 
 ### Quan sát từ lần chạy thật
 
