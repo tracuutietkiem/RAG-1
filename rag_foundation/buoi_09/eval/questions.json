@@ -1,0 +1,264 @@
+[
+  {
+    "question_id": "Q01",
+    "question": "Tỷ lệ an toàn vốn được xác định theo công thức nào?",
+    "question_type": "exact",
+    "scope": "in_scope",
+    "relevant_child_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0143",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0144",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0145",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0146",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0147",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0148",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0149",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0150",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0151"
+    ],
+    "relevant_parent_ids": [
+      "P_12b10e358230fa80"
+    ],
+    "needs_human_review": true,
+    "notes": "Toàn bộ chunk thuộc Điều 6, trừ chunk chỉ có tiêu đề | parent_id resolve từ hierarchy store build lúc 2026-08-08T09:20:47.544122+00:00; phải resolve lại nếu store đổi."
+  },
+  {
+    "question_id": "Q02",
+    "question": "Vốn tự có của ngân hàng bao gồm những cấu phần nào?",
+    "question_type": "paraphrase",
+    "scope": "in_scope",
+    "relevant_child_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0153",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0154"
+    ],
+    "relevant_parent_ids": [
+      "P_1a4880c1bb063645"
+    ],
+    "needs_human_review": true,
+    "notes": "Toàn bộ chunk thuộc Điều 7, trừ chunk chỉ có tiêu đề | parent_id resolve từ hierarchy store build lúc 2026-08-08T09:20:47.544122+00:00; phải resolve lại nếu store đổi."
+  },
+  {
+    "question_id": "Q03",
+    "question": "Tài sản tính theo rủi ro tín dụng được xác định thế nào?",
+    "question_type": "multi_aspect",
+    "scope": "in_scope",
+    "relevant_child_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0157",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0158",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0159",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0160",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0161",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0162",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0163",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0164",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0165"
+    ],
+    "relevant_parent_ids": [
+      "P_fb5ab0ce74243782"
+    ],
+    "needs_human_review": true,
+    "notes": "Toàn bộ chunk thuộc Điều 8, trừ chunk chỉ có tiêu đề | parent_id resolve từ hierarchy store build lúc 2026-08-08T09:20:47.544122+00:00; phải resolve lại nếu store đổi."
+  },
+  {
+    "question_id": "Q04",
+    "question": "Hệ số chuyển đổi CCF dùng để làm gì?",
+    "question_type": "exact",
+    "scope": "in_scope",
+    "relevant_child_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0198",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0199",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0200",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0201",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0202",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0203",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0204",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0205",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0206",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0207",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0208",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0209",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0210",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0211",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0212"
+    ],
+    "relevant_parent_ids": [
+      "P_3b7da4c7ffe13aff"
+    ],
+    "needs_human_review": true,
+    "notes": "Toàn bộ chunk thuộc Điều 10, trừ chunk chỉ có tiêu đề | parent_id resolve từ hierarchy store build lúc 2026-08-08T09:20:47.544122+00:00; phải resolve lại nếu store đổi."
+  },
+  {
+    "question_id": "Q05",
+    "question": "Giảm thiểu rủi ro tín dụng bằng tài sản bảo đảm được thực hiện ra sao?",
+    "question_type": "paraphrase",
+    "scope": "in_scope",
+    "relevant_child_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0229",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0230",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0231",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0232",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0233",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0234",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0235",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0236",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0237",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0238",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0239",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0240",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0241",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0242",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0243"
+    ],
+    "relevant_parent_ids": [
+      "P_ff9a41a400ee41c7"
+    ],
+    "needs_human_review": true,
+    "notes": "Toàn bộ chunk thuộc Điều 12, trừ chunk chỉ có tiêu đề | parent_id resolve từ hierarchy store build lúc 2026-08-08T09:20:47.544122+00:00; phải resolve lại nếu store đổi."
+  },
+  {
+    "question_id": "Q06",
+    "question": "Điều kiện để bù trừ số dư nội bảng khi giảm thiểu rủi ro tín dụng là gì?",
+    "question_type": "hierarchy_context",
+    "scope": "in_scope",
+    "relevant_child_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0245",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0246",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0247",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0248",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0249",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0250",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0251",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0252"
+    ],
+    "relevant_parent_ids": [
+      "P_50025214e37621a7"
+    ],
+    "needs_human_review": true,
+    "notes": "Toàn bộ chunk thuộc Điều 13, trừ chunk chỉ có tiêu đề | parent_id resolve từ hierarchy store build lúc 2026-08-08T09:20:47.544122+00:00; phải resolve lại nếu store đổi."
+  },
+  {
+    "question_id": "Q07",
+    "question": "Vốn yêu cầu cho rủi ro thị trường được tính như thế nào?",
+    "question_type": "multi_aspect",
+    "scope": "in_scope",
+    "relevant_child_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0294",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0295",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0296",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0297",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0298",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0299"
+    ],
+    "relevant_parent_ids": [
+      "P_5480e637bca5b7dc"
+    ],
+    "needs_human_review": true,
+    "notes": "Toàn bộ chunk thuộc Điều 18, trừ chunk chỉ có tiêu đề | parent_id resolve từ hierarchy store build lúc 2026-08-08T09:20:47.544122+00:00; phải resolve lại nếu store đổi."
+  },
+  {
+    "question_id": "Q08",
+    "question": "Ngân hàng phải thực hiện chế độ báo cáo với Ngân hàng Nhà nước ra sao?",
+    "question_type": "exact",
+    "scope": "in_scope",
+    "relevant_child_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0301"
+    ],
+    "relevant_parent_ids": [
+      "P_e58d917e38a18c99"
+    ],
+    "needs_human_review": true,
+    "notes": "Toàn bộ chunk thuộc Điều 19, trừ chunk chỉ có tiêu đề | parent_id resolve từ hierarchy store build lúc 2026-08-08T09:20:47.544122+00:00; phải resolve lại nếu store đổi."
+  },
+  {
+    "question_id": "Q09",
+    "question": "Doanh nghiệp xếp hạng tín nhiệm độc lập phải đáp ứng điều kiện gì?",
+    "question_type": "hierarchy_context",
+    "scope": "in_scope",
+    "relevant_child_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0121",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0122",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0123",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0124",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0125",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0126",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0127",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0128",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0129",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0130",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0131",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0132",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0133",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0134",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0135",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0136",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0137",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0138",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0139"
+    ],
+    "relevant_parent_ids": [
+      "P_cfef7929e4eb6cc8",
+      "P_1376702f4617d17d"
+    ],
+    "needs_human_review": true,
+    "notes": "Toàn bộ chunk thuộc Điều 5, trừ chunk chỉ có tiêu đề | parent_id resolve từ hierarchy store build lúc 2026-08-08T09:20:47.544122+00:00; phải resolve lại nếu store đổi."
+  },
+  {
+    "question_id": "Q10",
+    "question": "Ngân hàng nào có lãi suất tiết kiệm cao nhất hôm nay?",
+    "question_type": "paraphrase",
+    "scope": "out_of_scope",
+    "relevant_child_ids": [],
+    "relevant_parent_ids": [],
+    "needs_human_review": true,
+    "notes": "Câu hỏi ngoài phạm vi văn bản — không có chunk liên quan | parent_id resolve từ hierarchy store build lúc 2026-08-08T09:20:47.544122+00:00; phải resolve lại nếu store đổi."
+  },
+  {
+    "question_id": "MA",
+    "question": "Điều 8 quy định những nhu cầu vốn nào không được cho vay?",
+    "question_type": "exact",
+    "scope": "out_of_scope",
+    "relevant_child_ids": [],
+    "relevant_parent_ids": [],
+    "needs_human_review": true,
+    "notes": "Câu hỏi mẫu trong tài liệu Buổi 09, viết cho corpus Thông tư về HOẠT ĐỘNG CHO VAY. Corpus thực tế của dự án là văn bản về TỶ LỆ AN TOÀN VỐN — đã kiểm chứng: cụm 'không được cho vay', 'điều kiện vay vốn', 'cơ cấu lại thời hạn trả nợ' xuất hiện 0 lần. Vì vậy đánh scope=out_of_scope, KHÔNG tính vào recall/MRR/nDCG. Giữ lại để so sánh thủ công 4 mode và để kiểm tra hệ thống có biết nói 'không đủ căn cứ' hay không."
+  },
+  {
+    "question_id": "MB",
+    "question": "Khách hàng cần đáp ứng những yêu cầu gì để được tổ chức tín dụng xem xét cho vay?",
+    "question_type": "paraphrase",
+    "scope": "out_of_scope",
+    "relevant_child_ids": [],
+    "relevant_parent_ids": [],
+    "needs_human_review": true,
+    "notes": "Câu hỏi mẫu trong tài liệu Buổi 09, viết cho corpus Thông tư về HOẠT ĐỘNG CHO VAY. Corpus thực tế của dự án là văn bản về TỶ LỆ AN TOÀN VỐN — đã kiểm chứng: cụm 'không được cho vay', 'điều kiện vay vốn', 'cơ cấu lại thời hạn trả nợ' xuất hiện 0 lần. Vì vậy đánh scope=out_of_scope, KHÔNG tính vào recall/MRR/nDCG. Giữ lại để so sánh thủ công 4 mode và để kiểm tra hệ thống có biết nói 'không đủ căn cứ' hay không."
+  },
+  {
+    "question_id": "MC",
+    "question": "Điều kiện vay vốn và những nhu cầu vốn không được cho vay được quy định như thế nào?",
+    "question_type": "multi_aspect",
+    "scope": "out_of_scope",
+    "relevant_child_ids": [],
+    "relevant_parent_ids": [],
+    "needs_human_review": true,
+    "notes": "Câu hỏi mẫu trong tài liệu Buổi 09, viết cho corpus Thông tư về HOẠT ĐỘNG CHO VAY. Corpus thực tế của dự án là văn bản về TỶ LỆ AN TOÀN VỐN — đã kiểm chứng: cụm 'không được cho vay', 'điều kiện vay vốn', 'cơ cấu lại thời hạn trả nợ' xuất hiện 0 lần. Vì vậy đánh scope=out_of_scope, KHÔNG tính vào recall/MRR/nDCG. Giữ lại để so sánh thủ công 4 mode và để kiểm tra hệ thống có biết nói 'không đủ căn cứ' hay không."
+  },
+  {
+    "question_id": "MD",
+    "question": "Quy định về cơ cấu lại thời hạn trả nợ gồm điều kiện, thời gian và trách nhiệm nào?",
+    "question_type": "hierarchy_context",
+    "scope": "out_of_scope",
+    "relevant_child_ids": [],
+    "relevant_parent_ids": [],
+    "needs_human_review": true,
+    "notes": "Câu hỏi mẫu trong tài liệu Buổi 09, viết cho corpus Thông tư về HOẠT ĐỘNG CHO VAY. Corpus thực tế của dự án là văn bản về TỶ LỆ AN TOÀN VỐN — đã kiểm chứng: cụm 'không được cho vay', 'điều kiện vay vốn', 'cơ cấu lại thời hạn trả nợ' xuất hiện 0 lần. Vì vậy đánh scope=out_of_scope, KHÔNG tính vào recall/MRR/nDCG. Giữ lại để so sánh thủ công 4 mode và để kiểm tra hệ thống có biết nói 'không đủ căn cứ' hay không."
+  },
+  {
+    "question_id": "ME",
+    "question": "Lãi suất tiết kiệm cao nhất trên thị trường hôm nay là bao nhiêu?",
+    "question_type": "out_of_scope",
+    "scope": "out_of_scope",
+    "relevant_child_ids": [],
+    "relevant_parent_ids": [],
+    "needs_human_review": true,
+    "notes": "Câu hỏi ngoài phạm vi mọi văn bản pháp quy — kiểm tra confidence gate. Kỳ vọng: insufficient_evidence, KHÔNG sinh câu trả lời."
+  }
+]

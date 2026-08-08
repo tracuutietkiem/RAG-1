@@ -1,0 +1,2254 @@
+﻿python : test_embedding_calls_counted_separately 
+(tests.test_answer_pipeline.BudgetTraceTests.test_embedding_calls_counted_separately) ... ERROR
+At line:1 char:1
++ python -m unittest discover -s rag_foundation\buoi_09\tests -t rag_fo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_embedding_...tely) ... ERROR:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_multi_parent_at_most_two_generation_calls 
+(tests.test_answer_pipeline.BudgetTraceTests.test_multi_parent_at_most_two_generation_calls) ... ERROR
+test_result_schema_complete (tests.test_answer_pipeline.BudgetTraceTests.test_result_schema_complete) ... ERROR
+test_single_mode_one_generation_call 
+(tests.test_answer_pipeline.BudgetTraceTests.test_single_mode_one_generation_call) ... ERROR
+test_trace_has_identities (tests.test_answer_pipeline.BudgetTraceTests.test_trace_has_identities) ... ERROR
+test_trace_latency_stages (tests.test_answer_pipeline.BudgetTraceTests.test_trace_latency_stages) ... ERROR
+test_all_invalid_labels_not_presented_as_success 
+(tests.test_answer_pipeline.CitationTests.test_all_invalid_labels_not_presented_as_success) ... ERROR
+test_citation_carries_ambiguous_warning 
+(tests.test_answer_pipeline.CitationTests.test_citation_carries_ambiguous_warning) ... ERROR
+test_citation_schema_complete (tests.test_answer_pipeline.CitationTests.test_citation_schema_complete) ... ERROR
+test_citation_uses_real_parent_and_anchor 
+(tests.test_answer_pipeline.CitationTests.test_citation_uses_real_parent_and_anchor) ... ERROR
+test_invented_label_stripped (tests.test_answer_pipeline.CitationTests.test_invented_label_stripped) ... ERROR
+test_no_citation_when_answer_has_no_label 
+(tests.test_answer_pipeline.CitationTests.test_no_citation_when_answer_has_no_label) ... ERROR
+test_compare_never_generates_answer (tests.test_answer_pipeline.CompareTests.test_compare_never_generates_answer) ... 
+ERROR
+test_compare_query_set_generated_once (tests.test_answer_pipeline.CompareTests.test_compare_query_set_generated_once)
+C\u1ea3 hai multi mode d∙ng chung m\u1ed9t query set ù kh⌠ng sinh hai l\u1ea7n. ... ERROR
+test_compare_reports_error_per_mode (tests.test_answer_pipeline.CompareTests.test_compare_reports_error_per_mode) ... 
+ERROR
+test_compare_rows_label_unit (tests.test_answer_pipeline.CompareTests.test_compare_rows_label_unit) ... ERROR
+test_compare_runs_all_four_modes (tests.test_answer_pipeline.CompareTests.test_compare_runs_all_four_modes) ... ERROR
+test_empty_generation_gives_retrieval_only 
+(tests.test_answer_pipeline.FailureTests.test_empty_generation_gives_retrieval_only) ... ERROR
+test_generation_failure_gives_retrieval_only 
+(tests.test_answer_pipeline.FailureTests.test_generation_failure_gives_retrieval_only) ... ERROR
+test_query_generation_failure_status (tests.test_answer_pipeline.FailureTests.test_query_generation_failure_status) 
+... ERROR
+test_reranker_failure_no_silent_fallback 
+(tests.test_answer_pipeline.FailureTests.test_reranker_failure_no_silent_fallback) ... ERROR
+test_ambiguous_not_auto_rejected_but_warned 
+(tests.test_answer_pipeline.GateTests.test_ambiguous_not_auto_rejected_but_warned) ... ok
+test_gate_accepts_above_threshold (tests.test_answer_pipeline.GateTests.test_gate_accepts_above_threshold) ... ok
+test_gate_boundary_inclusive (tests.test_answer_pipeline.GateTests.test_gate_boundary_inclusive) ... ok
+test_insufficient_evidence_no_generation 
+(tests.test_answer_pipeline.GateTests.test_insufficient_evidence_no_generation) ... ERROR
+test_labels_only_on_accepted (tests.test_answer_pipeline.GateTests.test_labels_only_on_accepted) ... ERROR
+test_missing_score_rejected (tests.test_answer_pipeline.GateTests.test_missing_score_rejected) ... ok
+test_flat_mode_skips_hierarchy_gate (tests.test_answer_pipeline.ModeRoutingTests.test_flat_mode_skips_hierarchy_gate)
+flat mode kh⌠ng c\u1ea7n hierarchy store. ... ERROR
+test_invalid_mode_rejected (tests.test_answer_pipeline.ModeRoutingTests.test_invalid_mode_rejected) ... ok
+test_multi_flat_has_variants_child_unit 
+(tests.test_answer_pipeline.ModeRoutingTests.test_multi_flat_has_variants_child_unit) ... ERROR
+test_multi_parent_full_chain (tests.test_answer_pipeline.ModeRoutingTests.test_multi_parent_full_chain) ... ERROR
+test_parent_mode_needs_hierarchy (tests.test_answer_pipeline.ModeRoutingTests.test_parent_mode_needs_hierarchy) ... ok
+test_single_flat_no_variants_child_unit 
+(tests.test_answer_pipeline.ModeRoutingTests.test_single_flat_no_variants_child_unit) ... ERROR
+test_single_parent_no_variants_parent_unit 
+(tests.test_answer_pipeline.ModeRoutingTests.test_single_parent_no_variants_parent_unit) ... ERROR
+test_no_api_key_raises_clear_error (tests.test_answer_pipeline.PromptSafetyTests.test_no_api_key_raises_clear_error) 
+... ok
+test_prompt_forbids_inventing_metadata 
+(tests.test_answer_pipeline.PromptSafetyTests.test_prompt_forbids_inventing_metadata) ... ERROR
+test_prompt_forbids_legal_advice (tests.test_answer_pipeline.PromptSafetyTests.test_prompt_forbids_legal_advice) ... 
+ERROR
+test_prompt_wraps_evidence_as_data (tests.test_answer_pipeline.PromptSafetyTests.test_prompt_wraps_evidence_as_data) 
+... ERROR
+test_empty_parents_no_scorer_call (tests.test_answer_pipeline.RerankOrderTests.test_empty_parents_no_scorer_call) ... 
+ok
+test_final_parent_top_k_applied (tests.test_answer_pipeline.RerankOrderTests.test_final_parent_top_k_applied) ... ERROR
+test_reorder_and_rank_change (tests.test_answer_pipeline.RerankOrderTests.test_reorder_and_rank_change)
+Parent h\u1ea1ng 3 theo RRF \u0111\u01b0\u1ee3c rerank lΩn h\u1ea1ng 1 -> rank_change = +2. ... ok
+test_rrf_score_preserved (tests.test_answer_pipeline.RerankOrderTests.test_rrf_score_preserved) ... ok
+test_score_count_mismatch_raises (tests.test_answer_pipeline.RerankOrderTests.test_score_count_mismatch_raises) ... ok
+test_sigmoid_and_fields (tests.test_answer_pipeline.RerankOrderTests.test_sigmoid_and_fields) ... ok
+test_tie_break_by_parent_rank_then_id 
+(tests.test_answer_pipeline.RerankOrderTests.test_tie_break_by_parent_rank_then_id) ... ok
+test_generated_query_not_in_answer_prompt 
+(tests.test_answer_pipeline.RerankPairTests.test_generated_query_not_in_answer_prompt) ... ERROR
+test_generated_query_not_used_for_rerank 
+(tests.test_answer_pipeline.RerankPairTests.test_generated_query_not_used_for_rerank) ... ERROR
+test_model_not_loaded_on_import_or_status 
+(tests.test_answer_pipeline.RerankPairTests.test_model_not_loaded_on_import_or_status)
+load_reranker kh⌠ng \u0111\u01b0\u1ee3c g\u1ecdi \u1edf status/build/single retrieval. ... ERROR
+test_pair_is_q0_and_parent_text (tests.test_answer_pipeline.RerankPairTests.test_pair_is_q0_and_parent_text) ... ERROR
+test_rerank_limited_to_parent_candidates 
+(tests.test_answer_pipeline.RerankPairTests.test_rerank_limited_to_parent_candidates) ... ok
+test_custom_rrf_k (tests.test_crossquery.FormulaTests.test_custom_rrf_k) ... ok
+test_formula_hand_computed (tests.test_crossquery.FormulaTests.test_formula_hand_computed)
+Q0 (weight 1.5) rank 2, Q1 (weight 1.0) rank 1, K=60: ... ok
+test_missing_query_contributes_nothing (tests.test_crossquery.FormulaTests.test_missing_query_contributes_nothing) ... 
+ok
+test_only_rank_used_not_raw_scores (tests.test_crossquery.FormulaTests.test_only_rank_used_not_raw_scores)
+Inner RRF score/BM25 score khßc nhau nh\u01b0ng c∙ng rank -> c∙ng MQ-RRF. ... ok
+test_original_weight_higher_than_variant (tests.test_crossquery.FormulaTests.test_original_weight_higher_than_variant)
+C∙ng rank 1: child do Q0 t∞m ph\u1ea3i th\u1eafng child do Q1 t∞m. ... ok
+test_three_queries_accumulate (tests.test_crossquery.FormulaTests.test_three_queries_accumulate) ... ok
+test_candidate_in_single_query_kept (tests.test_crossquery.MergeTests.test_candidate_in_single_query_kept) ... ok
+test_metadata_mismatch_fails (tests.test_crossquery.MergeTests.test_metadata_mismatch_fails) ... ok
+test_page_mismatch_fails (tests.test_crossquery.MergeTests.test_page_mismatch_fails) ... ok
+test_per_query_ranks_recorded (tests.test_crossquery.MergeTests.test_per_query_ranks_recorded) ... ok
+test_per_query_trace_kept (tests.test_crossquery.MergeTests.test_per_query_trace_kept) ... ok
+test_support_query_ids_in_order (tests.test_crossquery.MergeTests.test_support_query_ids_in_order) ... ok
+test_union_no_duplicate (tests.test_crossquery.MergeTests.test_union_no_duplicate) ... ok
+test_rank_sequential_from_one (tests.test_crossquery.OrderingTests.test_rank_sequential_from_one) ... ok
+test_score_descending (tests.test_crossquery.OrderingTests.test_score_descending) ... ok
+test_support_count_breaks_tie_before_rank 
+(tests.test_crossquery.OrderingTests.test_support_count_breaks_tie_before_rank)
+Hai child c∙ng score: child \u0111\u01b0\u1ee3c nhi\u1ec1u query h\u1ed7 tr\u1ee3 h\u01a1n x\u1ebfp tr\u01b0\u1edbc. 
+... ok
+test_tie_break_deterministic (tests.test_crossquery.OrderingTests.test_tie_break_deterministic)
+C∙ng score -> support count -> best rank -> child_id. ... ok
+test_each_query_calls_hybrid_exactly_once 
+(tests.test_crossquery.PipelineTests.test_each_query_calls_hybrid_exactly_once) ... ERROR
+test_embedding_call_count_tracks_executed_queries 
+(tests.test_crossquery.PipelineTests.test_embedding_call_count_tracks_executed_queries) ... ERROR
+test_failed_query_not_counted_as_zero_result 
+(tests.test_crossquery.PipelineTests.test_failed_query_not_counted_as_zero_result) ... ERROR
+test_no_rerank_or_generation_called (tests.test_crossquery.PipelineTests.test_no_rerank_or_generation_called)
+B\u01b0\u1edbc 05 tuy\u1ec7t \u0111\u1ed1i kh⌠ng ch\u1ea1m reranker hay answer generation. ... ERROR
+test_overlap_distribution_correct (tests.test_crossquery.PipelineTests.test_overlap_distribution_correct) ... ERROR
+test_q0_failure_raises (tests.test_crossquery.PipelineTests.test_q0_failure_raises) ... ERROR
+test_query_generation_unavailable_propagates 
+(tests.test_crossquery.PipelineTests.test_query_generation_unavailable_propagates) ... ERROR
+test_single_mode_only_q0_no_generation (tests.test_crossquery.PipelineTests.test_single_mode_only_q0_no_generation) 
+... ERROR
+test_trace_has_all_keys (tests.test_crossquery.PipelineTests.test_trace_has_all_keys) ... ERROR
+test_variant_failure_gives_partial_status 
+(tests.test_crossquery.PipelineTests.test_variant_failure_gives_partial_status) ... ERROR
+test_both_weights_zero_blocked (tests.test_hierarchy.ConfigTests.test_both_weights_zero_blocked) ... ok
+test_config_not_dependent_on_cwd (tests.test_hierarchy.ConfigTests.test_config_not_dependent_on_cwd)
+Load b\u1eb1ng \u0111\u01b0\u1eddng d\u1eabn tuy\u1ec7t \u0111\u1ed1i ph\u1ea3i thαnh c⌠ng d∙ cwd \u1edf \u0111Γu. ... 
+ok
+test_final_parent_top_k_must_not_exceed_candidates 
+(tests.test_hierarchy.ConfigTests.test_final_parent_top_k_must_not_exceed_candidates) ... ok
+test_multi_query_count_range (tests.test_hierarchy.ConfigTests.test_multi_query_count_range) ... ok
+test_parent_max_chars_range (tests.test_hierarchy.ConfigTests.test_parent_max_chars_range) ... ok
+test_temperature_range (tests.test_hierarchy.ConfigTests.test_temperature_range) ... ok
+test_total_context_must_be_at_least_parent_max 
+(tests.test_hierarchy.ConfigTests.test_total_context_must_be_at_least_parent_max) ... ok
+test_valid_config (tests.test_hierarchy.ConfigTests.test_valid_config) ... ok
+test_fixture_fallback_for_chapter_only (tests.test_hierarchy.FixtureTests.test_fixture_fallback_for_chapter_only) ... 
+ok
+test_fixture_inline_citation_not_promoted (tests.test_hierarchy.FixtureTests.test_fixture_inline_citation_not_promoted)
+Chunk ch\u1ee9a 'quy \u0111\u1ecbnh t\u1ea1i kho\u1ea3n 4 \u0110i\u1ec1u 8' kh⌠ng \u0111\u01b0\u1ee3c thαnh 
+\u0110i\u1ec1u 8. ... ok
+test_fixture_loads_and_builds (tests.test_hierarchy.FixtureTests.test_fixture_loads_and_builds) ... ok
+test_fixture_no_cross_source_carry (tests.test_hierarchy.FixtureTests.test_fixture_no_cross_source_carry) ... ok
+test_import_does_not_touch_real_storage (tests.test_hierarchy.IsolationTests.test_import_does_not_touch_real_storage)
+Import module kh⌠ng \u0111\u01b0\u1ee3c t\u1ea1o storage/hierarchy th\u1eadt. ... ok
+test_no_module_level_heavy_import (tests.test_hierarchy.IsolationTests.test_no_module_level_heavy_import) ... ok
+test_deterministic_across_runs (tests.test_hierarchy.ParentTests.test_deterministic_across_runs) ... ok
+test_each_child_exactly_one_parent (tests.test_hierarchy.ParentTests.test_each_child_exactly_one_parent) ... ok
+test_fallback_parent_when_no_article (tests.test_hierarchy.ParentTests.test_fallback_parent_when_no_article) ... ok
+test_oversized_single_child_kept_with_warning 
+(tests.test_hierarchy.ParentTests.test_oversized_single_child_kept_with_warning) ... ok
+test_parent_pages_and_counts (tests.test_hierarchy.ParentTests.test_parent_pages_and_counts) ... ok
+test_parent_split_at_child_boundary (tests.test_hierarchy.ParentTests.test_parent_split_at_child_boundary)
+Chia window nh\u01b0ng KH╘NG c\u1eaft gi\u1eefa child. ... ok
+test_parent_text_is_concatenation_not_summary 
+(tests.test_hierarchy.ParentTests.test_parent_text_is_concatenation_not_summary) ... ok
+test_stable_parent_id (tests.test_hierarchy.ParentTests.test_stable_parent_id) ... ok
+test_carry_forward_within_same_source (tests.test_hierarchy.ResolutionTests.test_carry_forward_within_same_source) ... 
+ok
+test_heading_inferred_when_metadata_missing_article 
+(tests.test_hierarchy.ResolutionTests.test_heading_inferred_when_metadata_missing_article) ... ok
+test_heading_requires_dot_after_number (tests.test_hierarchy.ResolutionTests.test_heading_requires_dot_after_number)
+'\u0110i\u1ec1u 8 Th⌠ng t\u01b0' (kh⌠ng c≤ d\u1ea5u ch\u1ea5m) kh⌠ng ph\u1ea3i heading. ... ok
+test_inline_dieu_not_treated_as_heading (tests.test_hierarchy.ResolutionTests.test_inline_dieu_not_treated_as_heading)
+B\u1eaby th\u1eadt: corpus c≤ 26 record d\u1ea1ng 'quy \u0111\u1ecbnh t\u1ea1i kho\u1ea3n 4 \u0110i\u1ec1u 8'. ... ok
+test_metadata_heading_conflict_marks_ambiguous 
+(tests.test_hierarchy.ResolutionTests.test_metadata_heading_conflict_marks_ambiguous) ... ok
+test_metadata_precedence (tests.test_hierarchy.ResolutionTests.test_metadata_precedence) ... ok
+test_no_carry_forward_across_sources (tests.test_hierarchy.ResolutionTests.test_no_carry_forward_across_sources) ... ok
+test_numeric_chunk_ordering (tests.test_hierarchy.ResolutionTests.test_numeric_chunk_ordering)
+'...:10' ph\u1ea3i \u0111\u1ee9ng SAU '...:2', kh⌠ng sort lexical. ... ok
+test_source_data_not_mutated (tests.test_hierarchy.ResolutionTests.test_source_data_not_mutated) ... ok
+test_build_creates_three_files (tests.test_hierarchy.StoreTests.test_build_creates_three_files) ... ok
+test_child_count_invariant (tests.test_hierarchy.StoreTests.test_child_count_invariant) ... ok
+test_duplicate_chunk_id_fails (tests.test_hierarchy.StoreTests.test_duplicate_chunk_id_fails) ... ok
+test_load_store_missing_raises_with_guidance 
+(tests.test_hierarchy.StoreTests.test_load_store_missing_raises_with_guidance) ... ok
+test_load_store_returns_lookup_dicts (tests.test_hierarchy.StoreTests.test_load_store_returns_lookup_dicts) ... ok
+test_manifest_has_fingerprint_and_counts (tests.test_hierarchy.StoreTests.test_manifest_has_fingerprint_and_counts) 
+... ok
+test_no_temp_file_left_behind (tests.test_hierarchy.StoreTests.test_no_temp_file_left_behind) ... ok
+test_rebuild_is_idempotent (tests.test_hierarchy.StoreTests.test_rebuild_is_idempotent) ... ok
+test_status_does_not_create_anything (tests.test_hierarchy.StoreTests.test_status_does_not_create_anything)
+status lα read-only tuy\u1ec7t \u0111\u1ed1i: kh⌠ng mkdir, kh⌠ng t\u1ea1o file. ... ok
+test_status_does_not_modify_timestamps (tests.test_hierarchy.StoreTests.test_status_does_not_modify_timestamps) ... ok
+test_status_missing_before_build (tests.test_hierarchy.StoreTests.test_status_missing_before_build) ... ok
+test_status_ready_after_build (tests.test_hierarchy.StoreTests.test_status_ready_after_build) ... ok
+test_status_stale_when_config_changes (tests.test_hierarchy.StoreTests.test_status_stale_when_config_changes) ... ok
+test_status_stale_when_input_changes (tests.test_hierarchy.StoreTests.test_status_stale_when_input_changes) ... ok
+test_cache_can_be_disabled (tests.test_multiquery.CallAndCacheTests.test_cache_can_be_disabled) ... ok
+test_cache_hit_does_not_call_again (tests.test_multiquery.CallAndCacheTests.test_cache_hit_does_not_call_again) ... ok
+test_cache_miss_for_different_question 
+(tests.test_multiquery.CallAndCacheTests.test_cache_miss_for_different_question) ... ok
+test_cache_returns_copy_not_reference (tests.test_multiquery.CallAndCacheTests.test_cache_returns_copy_not_reference) 
+... ok
+test_exactly_one_generator_call (tests.test_multiquery.CallAndCacheTests.test_exactly_one_generator_call) ... ok
+test_failed_generation_not_cached (tests.test_multiquery.CallAndCacheTests.test_failed_generation_not_cached) ... ok
+test_extract_refs (tests.test_multiquery.LegalReferenceTests.test_extract_refs) ... ok
+test_invented_article_number_dropped (tests.test_multiquery.LegalReferenceTests.test_invented_article_number_dropped)
+Model b\u1ecba '\u0110i\u1ec1u 99' kh⌠ng c≤ trong cΓu h\u1ecfi -> ph\u1ea3i lo\u1ea1i. ... ok
+test_original_reference_allowed_in_variant 
+(tests.test_multiquery.LegalReferenceTests.test_original_reference_allowed_in_variant) ... ok
+test_question_without_reference_no_warning 
+(tests.test_multiquery.LegalReferenceTests.test_question_without_reference_no_warning) ... ok
+test_warning_when_no_variant_preserves_reference 
+(tests.test_multiquery.LegalReferenceTests.test_warning_when_no_variant_preserves_reference) ... ok
+test_all_variants_invalid_gives_unavailable 
+(tests.test_multiquery.LimitTests.test_all_variants_invalid_gives_unavailable) ... ok
+test_deterministic_query_ids (tests.test_multiquery.LimitTests.test_deterministic_query_ids) ... ok
+test_duplicate_variants_removed (tests.test_multiquery.LimitTests.test_duplicate_variants_removed) ... ok
+test_fewer_valid_queries_no_fake_created (tests.test_multiquery.LimitTests.test_fewer_valid_queries_no_fake_created) 
+... ok
+test_respects_multi_query_count (tests.test_multiquery.LimitTests.test_respects_multi_query_count) ... ok
+test_too_long_variant_dropped (tests.test_multiquery.LimitTests.test_too_long_variant_dropped) ... ok
+test_variant_equal_to_q0_removed (tests.test_multiquery.LimitTests.test_variant_equal_to_q0_removed) ... ok
+test_missing_api_key_gives_explicit_status 
+(tests.test_multiquery.OfflineTests.test_missing_api_key_gives_explicit_status) ... 
+C:\Python314\Lib\site-packages\google\genai\types.py:42: DeprecationWarning: '_UnionGenericAlias' is deprecated and 
+slated for removal in Python 3.17
+  VersionedUnionType = Union[builtin_types.UnionType, _UnionGenericAlias]
+ok
+test_no_network_in_tests (tests.test_multiquery.OfflineTests.test_no_network_in_tests)
+Generator th\u1eadt kh⌠ng bao gi\u1edd \u0111\u01b0\u1ee3c g\u1ecdi khi \u0111π tiΩm fake. ... ok
+test_prompt_contains_no_answer_instruction 
+(tests.test_multiquery.OfflineTests.test_prompt_contains_no_answer_instruction) ... ok
+test_schema_only_allows_text_and_focus (tests.test_multiquery.OfflineTests.test_schema_only_allows_text_and_focus) ... 
+ok
+test_empty_question_raises (tests.test_multiquery.Q0Tests.test_empty_question_raises) ... ok
+test_q0_always_first_and_unchanged (tests.test_multiquery.Q0Tests.test_q0_always_first_and_unchanged) ... ok
+test_q0_survives_generation_failure (tests.test_multiquery.Q0Tests.test_q0_survives_generation_failure) ... ok
+test_q0_trimmed_and_nfc (tests.test_multiquery.Q0Tests.test_q0_trimmed_and_nfc) ... ok
+test_too_long_question_raises (tests.test_multiquery.Q0Tests.test_too_long_question_raises) ... ok
+test_invalid_focus_defaults_to_paraphrase 
+(tests.test_multiquery.SchemaTests.test_invalid_focus_defaults_to_paraphrase) ... ok
+test_item_without_text_dropped (tests.test_multiquery.SchemaTests.test_item_without_text_dropped) ... ok
+test_missing_queries_key_raises (tests.test_multiquery.SchemaTests.test_missing_queries_key_raises) ... ok
+test_no_answer_field_leaks_into_result (tests.test_multiquery.SchemaTests.test_no_answer_field_leaks_into_result)
+Model c≤ tr\u1ea3 thΩm field l\u1ea1 c\u0169ng kh⌠ng \u0111\u01b0\u1ee3c l\u1ecdt vαo query set. ... ok
+test_non_dict_payload_raises (tests.test_multiquery.SchemaTests.test_non_dict_payload_raises) ... ok
+test_result_has_full_schema (tests.test_multiquery.SchemaTests.test_result_has_full_schema) ... ok
+test_ambiguous_flag_propagates (tests.test_parent_retrieval.AggregationTests.test_ambiguous_flag_propagates) ... ok
+test_anchor_is_best_ranked_child (tests.test_parent_retrieval.AggregationTests.test_anchor_is_best_ranked_child) ... ok
+test_formula_hand_computed (tests.test_parent_retrieval.AggregationTests.test_formula_hand_computed)
+child rank 1 vα 3, K=60: 1/61 + 1/63 = 0.016393442 + 0.015873016 = 0.032266458 ... ok
+test_parent_deduplicated (tests.test_parent_retrieval.AggregationTests.test_parent_deduplicated)
+5 child c∙ng parent -> \u0111·ng 1 parent candidate. ... ok
+test_raw_mq_score_not_added (tests.test_parent_retrieval.AggregationTests.test_raw_mq_score_not_added)
+\u0110\u1ed5i multi_query_rrf_score nh\u01b0ng gi\u1eef rank -> parent score kh⌠ng \u0111\u1ed5i. ... ok
+test_score_child_limit_caps_contribution 
+(tests.test_parent_retrieval.AggregationTests.test_score_child_limit_caps_contribution)
+PARENT_SCORE_CHILD_LIMIT=3: child th\u1ee9 4, 5 KH╘NG c\u1ed9ng \u0111i\u1ec3m. ... ok
+test_scoring_takes_best_ranks (tests.test_parent_retrieval.AggregationTests.test_scoring_takes_best_ranks) ... ok
+test_support_query_ids_union (tests.test_parent_retrieval.AggregationTests.test_support_query_ids_union) ... ok
+test_all_fit_when_budget_large (tests.test_parent_retrieval.BudgetTests.test_all_fit_when_budget_large) ... ok
+test_cuts_only_at_parent_boundary (tests.test_parent_retrieval.BudgetTests.test_cuts_only_at_parent_boundary) ... ok
+test_dropped_parents_recorded (tests.test_parent_retrieval.BudgetTests.test_dropped_parents_recorded) ... ok
+test_duplicate_parent_not_counted_twice 
+(tests.test_parent_retrieval.BudgetTests.test_duplicate_parent_not_counted_twice) ... ok
+test_oversized_first_parent_kept_with_warning 
+(tests.test_parent_retrieval.BudgetTests.test_oversized_first_parent_kept_with_warning) ... ok
+test_child_maps_to_correct_parent (tests.test_parent_retrieval.MappingTests.test_child_maps_to_correct_parent) ... ok
+test_child_without_parent_id_fails (tests.test_parent_retrieval.MappingTests.test_child_without_parent_id_fails) ... ok
+test_missing_child_fails_with_id (tests.test_parent_retrieval.MappingTests.test_missing_child_fails_with_id) ... ok
+test_missing_parent_fails_with_id (tests.test_parent_retrieval.MappingTests.test_missing_parent_fails_with_id) ... ok
+test_child_to_parent_table_covers_all_hits 
+(tests.test_parent_retrieval.PipelineTests.test_child_to_parent_table_covers_all_hits) ... ok
+test_children_per_parent_counts (tests.test_parent_retrieval.PipelineTests.test_children_per_parent_counts) ... ok
+test_end_to_end_returns_parents (tests.test_parent_retrieval.PipelineTests.test_end_to_end_returns_parents) ... ok
+test_expansion_factor_greater_than_one 
+(tests.test_parent_retrieval.PipelineTests.test_expansion_factor_greater_than_one) ... ok
+test_invalid_mode_rejected (tests.test_parent_retrieval.PipelineTests.test_invalid_mode_rejected) ... ok
+test_no_duplicate_child_text_across_parents 
+(tests.test_parent_retrieval.PipelineTests.test_no_duplicate_child_text_across_parents)
+Invariant hierarchy: m\u1ed9t child ch\u1ec9 thu\u1ed9c \u0111·ng m\u1ed9t parent. ... ok
+test_no_reranker_or_generation_called 
+(tests.test_parent_retrieval.PipelineTests.test_no_reranker_or_generation_called) ... ok
+test_single_parent_mode_no_variants (tests.test_parent_retrieval.PipelineTests.test_single_parent_mode_no_variants)
+single_parent ch\u1ec9 d∙ng Q0 -> kh⌠ng g\u1ecdi generator. ... ERROR
+test_status_propagates_from_child_stage 
+(tests.test_parent_retrieval.PipelineTests.test_status_propagates_from_child_stage) ... ok
+test_trace_has_all_required_keys (tests.test_parent_retrieval.PipelineTests.test_trace_has_all_required_keys) ... ok
+test_candidate_limit_applied (tests.test_parent_retrieval.SortTests.test_candidate_limit_applied) ... ok
+test_sorted_by_score_desc (tests.test_parent_retrieval.SortTests.test_sorted_by_score_desc) ... ok
+test_tie_break_by_support_then_rank_then_id 
+(tests.test_parent_retrieval.SortTests.test_tie_break_by_support_then_rank_then_id)
+C∙ng score: nhi\u1ec1u query h\u1ed7 tr\u1ee3 h\u01a1n th\u1eafng. ... ok
+test_tie_break_final_by_parent_id (tests.test_parent_retrieval.SortTests.test_tie_break_final_by_parent_id) ... ok
+test_missing_store_raises_not_ready (tests.test_parent_retrieval.StatusGateTests.test_missing_store_raises_not_ready) 
+... ok
+test_query_does_not_build_store (tests.test_parent_retrieval.StatusGateTests.test_query_does_not_build_store) ... ok
+test_ready_store_passes (tests.test_parent_retrieval.StatusGateTests.test_ready_store_passes) ... ok
+test_stale_store_raises_not_ready (tests.test_parent_retrieval.StatusGateTests.test_stale_store_raises_not_ready) ... 
+ok
+
+======================================================================
+ERROR: test_embedding_calls_counted_separately 
+(tests.test_answer_pipeline.BudgetTraceTests.test_embedding_calls_counted_separately)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 457, in 
+test_embedding_calls_counted_separately
+    res, _, _ = self.run_answer(mode="multi_parent")
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_multi_parent_at_most_two_generation_calls 
+(tests.test_answer_pipeline.BudgetTraceTests.test_multi_parent_at_most_two_generation_calls)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 447, in 
+test_multi_parent_at_most_two_generation_calls
+    res, _, client = self.run_answer(mode="multi_parent")
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_result_schema_complete (tests.test_answer_pipeline.BudgetTraceTests.test_result_schema_complete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 475, in 
+test_result_schema_complete
+    res, _, _ = self.run_answer()
+                ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_single_mode_one_generation_call 
+(tests.test_answer_pipeline.BudgetTraceTests.test_single_mode_one_generation_call)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 453, in 
+test_single_mode_one_generation_call
+    res, _, _ = self.run_answer(mode="single_parent")
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_trace_has_identities (tests.test_answer_pipeline.BudgetTraceTests.test_trace_has_identities)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 462, in 
+test_trace_has_identities
+    res, _, _ = self.run_answer()
+                ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_trace_latency_stages (tests.test_answer_pipeline.BudgetTraceTests.test_trace_latency_stages)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 469, in 
+test_trace_latency_stages
+    res, _, _ = self.run_answer()
+                ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_all_invalid_labels_not_presented_as_success 
+(tests.test_answer_pipeline.CitationTests.test_all_invalid_labels_not_presented_as_success)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 429, in 
+test_all_invalid_labels_not_presented_as_success
+    res, _, _ = self.run_answer(gen_client=FakeGenClient(text="[P77]"))
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_citation_carries_ambiguous_warning 
+(tests.test_answer_pipeline.CitationTests.test_citation_carries_ambiguous_warning)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 434, in 
+test_citation_carries_ambiguous_warning
+    res, _, _ = self.run_answer()
+                ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_citation_schema_complete (tests.test_answer_pipeline.CitationTests.test_citation_schema_complete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 408, in 
+test_citation_schema_complete
+    res, _, _ = self.run_answer()
+                ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_citation_uses_real_parent_and_anchor 
+(tests.test_answer_pipeline.CitationTests.test_citation_uses_real_parent_and_anchor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 398, in 
+test_citation_uses_real_parent_and_anchor
+    res, _, _ = self.run_answer()
+                ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_invented_label_stripped (tests.test_answer_pipeline.CitationTests.test_invented_label_stripped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 416, in 
+test_invented_label_stripped
+    res, _, _ = self.run_answer(
+                ~~~~~~~~~~~~~~~^
+        gen_client=FakeGenClient(text="Theo quy \u0111\u1ecbnh [P1] vα thΩm n\u1eefa [P99]."))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_no_citation_when_answer_has_no_label 
+(tests.test_answer_pipeline.CitationTests.test_no_citation_when_answer_has_no_label)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 424, in 
+test_no_citation_when_answer_has_no_label
+    res, _, _ = self.run_answer(gen_client=FakeGenClient(text="Kh⌠ng c≤ nhπn nαo."))
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_compare_never_generates_answer 
+(tests.test_answer_pipeline.CompareTests.test_compare_never_generates_answer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 504, in 
+test_compare_never_generates_answer
+    res, _ = self._compare()
+             ~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 490, in 
+_compare
+    return hr.compare_hierarchical_modes(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, modes=modes,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        query_generator_fn=fake_generator,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ), client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1992, in 
+compare_hierarchical_modes
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_compare_query_set_generated_once 
+(tests.test_answer_pipeline.CompareTests.test_compare_query_set_generated_once)
+C\u1ea3 hai multi mode d∙ng chung m\u1ed9t query set ù kh⌠ng sinh hai l\u1ea7n.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 524, in 
+test_compare_query_set_generated_once
+    hr.compare_hierarchical_modes(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        query_generator_fn=counting_gen,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1992, in 
+compare_hierarchical_modes
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_compare_reports_error_per_mode 
+(tests.test_answer_pipeline.CompareTests.test_compare_reports_error_per_mode)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 541, in 
+test_compare_reports_error_per_mode
+    res = hr.compare_hierarchical_modes(
+        "q", self.config, self.hcfg,
+    ...<3 lines>...
+        query_generator_fn=fake_generator,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1992, in 
+compare_hierarchical_modes
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_compare_rows_label_unit (tests.test_answer_pipeline.CompareTests.test_compare_rows_label_unit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 534, in 
+test_compare_rows_label_unit
+    res, _ = self._compare()
+             ~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 490, in 
+_compare
+    return hr.compare_hierarchical_modes(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, modes=modes,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        query_generator_fn=fake_generator,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ), client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1992, in 
+compare_hierarchical_modes
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_compare_runs_all_four_modes (tests.test_answer_pipeline.CompareTests.test_compare_runs_all_four_modes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 511, in 
+test_compare_runs_all_four_modes
+    res, _ = self._compare()
+             ~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 490, in 
+_compare
+    return hr.compare_hierarchical_modes(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, modes=modes,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        query_generator_fn=fake_generator,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ), client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1992, in 
+compare_hierarchical_modes
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_empty_generation_gives_retrieval_only 
+(tests.test_answer_pipeline.FailureTests.test_empty_generation_gives_retrieval_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 387, in 
+test_empty_generation_gives_retrieval_only
+    res, _, _ = self.run_answer(gen_client=FakeGenClient(text=""))
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_generation_failure_gives_retrieval_only 
+(tests.test_answer_pipeline.FailureTests.test_generation_failure_gives_retrieval_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 381, in 
+test_generation_failure_gives_retrieval_only
+    res, _, _ = self.run_answer(gen_client=client)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_query_generation_failure_status 
+(tests.test_answer_pipeline.FailureTests.test_query_generation_failure_status)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 375, in 
+test_query_generation_failure_status
+    res, _, _ = self.run_answer(query_generator_fn=broken)
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_reranker_failure_no_silent_fallback 
+(tests.test_answer_pipeline.FailureTests.test_reranker_failure_no_silent_fallback)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 364, in 
+test_reranker_failure_no_silent_fallback
+    res, _, client = self.run_answer(
+                     ~~~~~~~~~~~~~~~^
+        scorer=FakeScorer(raises=ar.RerankerUnavailableError("model h\u1ecfng")))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_insufficient_evidence_no_generation 
+(tests.test_answer_pipeline.GateTests.test_insufficient_evidence_no_generation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 287, in 
+test_insufficient_evidence_no_generation
+    res, _, client = self.run_answer(scorer=FakeScorer(logits=[-9.0] * 5))
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_labels_only_on_accepted (tests.test_answer_pipeline.GateTests.test_labels_only_on_accepted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 294, in 
+test_labels_only_on_accepted
+    res, _, _ = self.run_answer(scorer=FakeScorer(logits=[9.0, -9.0, -9.0, -9.0, -9.0]))
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_flat_mode_skips_hierarchy_gate 
+(tests.test_answer_pipeline.ModeRoutingTests.test_flat_mode_skips_hierarchy_gate)
+flat mode kh⌠ng c\u1ea7n hierarchy store.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 343, in 
+test_flat_mode_skips_hierarchy_gate
+    res, _, _ = self.run_answer(mode="single_flat", hierarchy_dir=self.work / "khong_ton_tai")
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_multi_flat_has_variants_child_unit 
+(tests.test_answer_pipeline.ModeRoutingTests.test_multi_flat_has_variants_child_unit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 316, in 
+test_multi_flat_has_variants_child_unit
+    res, scorer, _ = self.run_answer(mode="multi_flat")
+                     ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_multi_parent_full_chain (tests.test_answer_pipeline.ModeRoutingTests.test_multi_parent_full_chain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 331, in 
+test_multi_parent_full_chain
+    res, _, _ = self.run_answer(mode="multi_parent")
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_single_flat_no_variants_child_unit 
+(tests.test_answer_pipeline.ModeRoutingTests.test_single_flat_no_variants_child_unit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 308, in 
+test_single_flat_no_variants_child_unit
+    res, scorer, _ = self.run_answer(
+                     ~~~~~~~~~~~~~~~^
+        mode="single_flat", query_generator_fn=lambda *a: gen_calls.append(1))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_single_parent_no_variants_parent_unit 
+(tests.test_answer_pipeline.ModeRoutingTests.test_single_parent_no_variants_parent_unit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 323, in 
+test_single_parent_no_variants_parent_unit
+    res, _, _ = self.run_answer(
+                ~~~~~~~~~~~~~~~^
+        mode="single_parent", query_generator_fn=lambda *a: gen_calls.append(1))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_prompt_forbids_inventing_metadata 
+(tests.test_answer_pipeline.PromptSafetyTests.test_prompt_forbids_inventing_metadata)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 570, in 
+test_prompt_forbids_inventing_metadata
+    res, _, client = self.run_answer()
+                     ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_prompt_forbids_legal_advice (tests.test_answer_pipeline.PromptSafetyTests.test_prompt_forbids_legal_advice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 566, in 
+test_prompt_forbids_legal_advice
+    res, _, client = self.run_answer()
+                     ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_prompt_wraps_evidence_as_data 
+(tests.test_answer_pipeline.PromptSafetyTests.test_prompt_wraps_evidence_as_data)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 560, in 
+test_prompt_wraps_evidence_as_data
+    res, _, client = self.run_answer()
+                     ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_final_parent_top_k_applied (tests.test_answer_pipeline.RerankOrderTests.test_final_parent_top_k_applied)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 237, in 
+test_final_parent_top_k_applied
+    res, _, _ = self.run_answer(mode="single_parent")
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_generated_query_not_in_answer_prompt 
+(tests.test_answer_pipeline.RerankPairTests.test_generated_query_not_in_answer_prompt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 159, in 
+test_generated_query_not_in_answer_prompt
+    res, _, client = self.run_answer()
+                     ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_generated_query_not_used_for_rerank 
+(tests.test_answer_pipeline.RerankPairTests.test_generated_query_not_used_for_rerank)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 154, in 
+test_generated_query_not_used_for_rerank
+    res, scorer, _ = self.run_answer()
+                     ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_model_not_loaded_on_import_or_status 
+(tests.test_answer_pipeline.RerankPairTests.test_model_not_loaded_on_import_or_status)
+load_reranker kh⌠ng \u0111\u01b0\u1ee3c g\u1ecdi \u1edf status/build/single retrieval.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 184, in 
+test_model_not_loaded_on_import_or_status
+    hr.parent_retrieval(
+    ~~~~~~~~~~~~~~~~~~~^
+        "q", self.config, self.hcfg, chunks_dir=FIXTURES, hierarchy_dir=self.hdir,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        hybrid_fn=FakeHybrid(self.child_ids, self.children), mode="single_parent")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1330, in 
+parent_retrieval
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg,
+    ...<7 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_pair_is_q0_and_parent_text (tests.test_answer_pipeline.RerankPairTests.test_pair_is_q0_and_parent_text)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 145, in 
+test_pair_is_q0_and_parent_text
+    res, scorer, _ = self.run_answer()
+                     ~~~~~~~~~~~~~~~^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_answer_pipeline.py", line 128, in 
+run_answer
+    return hr.answer_hierarchical(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode=mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kw,
+        ^^^^^
+    ), scorer, client
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1861, in 
+answer_hierarchical
+    retrieval = retrieve_for_hierarchical_mode(
+        question, mode, config, hcfg, strategy=strategy,
+    ...<3 lines>...
+        rerank_scorer=rerank_scorer,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1697, in 
+retrieve_for_hierarchical_mode
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg, strategy=strategy, use_variants=use_variants,
+    ...<2 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_each_query_calls_hybrid_exactly_once 
+(tests.test_crossquery.PipelineTests.test_each_query_calls_hybrid_exactly_once)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 295, in 
+test_each_query_calls_hybrid_exactly_once
+    res = self._run(hybrid)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 278, in _run
+    return hr.multi_query_child_retrieval(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        question, self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        chunks_dir=Path(__file__).resolve().parent / "fixtures",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_embedding_call_count_tracks_executed_queries 
+(tests.test_crossquery.PipelineTests.test_embedding_call_count_tracks_executed_queries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 382, in 
+test_embedding_call_count_tracks_executed_queries
+    res = self._run(hybrid)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 278, in _run
+    return hr.multi_query_child_retrieval(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        question, self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        chunks_dir=Path(__file__).resolve().parent / "fixtures",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_failed_query_not_counted_as_zero_result 
+(tests.test_crossquery.PipelineTests.test_failed_query_not_counted_as_zero_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 329, in 
+test_failed_query_not_counted_as_zero_result
+    res = self._run(hybrid)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 278, in _run
+    return hr.multi_query_child_retrieval(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        question, self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        chunks_dir=Path(__file__).resolve().parent / "fixtures",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_no_rerank_or_generation_called (tests.test_crossquery.PipelineTests.test_no_rerank_or_generation_called)
+B\u01b0\u1edbc 05 tuy\u1ec7t \u0111\u1ed1i kh⌠ng ch\u1ea1m reranker hay answer generation.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 371, in 
+test_no_rerank_or_generation_called
+    self._run(hybrid)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 278, in _run
+    return hr.multi_query_child_retrieval(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        question, self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        chunks_dir=Path(__file__).resolve().parent / "fixtures",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_overlap_distribution_correct (tests.test_crossquery.PipelineTests.test_overlap_distribution_correct)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 360, in 
+test_overlap_distribution_correct
+    res = self._run(hybrid)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 278, in _run
+    return hr.multi_query_child_retrieval(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        question, self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        chunks_dir=Path(__file__).resolve().parent / "fixtures",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_q0_failure_raises (tests.test_crossquery.PipelineTests.test_q0_failure_raises)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 311, in 
+test_q0_failure_raises
+    self._run(hybrid)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 278, in _run
+    return hr.multi_query_child_retrieval(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        question, self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        chunks_dir=Path(__file__).resolve().parent / "fixtures",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_query_generation_unavailable_propagates 
+(tests.test_crossquery.PipelineTests.test_query_generation_unavailable_propagates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 339, in 
+test_query_generation_unavailable_propagates
+    res = self._run(hybrid, gen=broken_gen)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 278, in _run
+    return hr.multi_query_child_retrieval(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        question, self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        chunks_dir=Path(__file__).resolve().parent / "fixtures",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_single_mode_only_q0_no_generation 
+(tests.test_crossquery.PipelineTests.test_single_mode_only_q0_no_generation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 302, in 
+test_single_mode_only_q0_no_generation
+    res = self._run(hybrid, use_variants=False, gen=lambda *a: calls.append(1))
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 278, in _run
+    return hr.multi_query_child_retrieval(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        question, self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        chunks_dir=Path(__file__).resolve().parent / "fixtures",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_trace_has_all_keys (tests.test_crossquery.PipelineTests.test_trace_has_all_keys)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 345, in 
+test_trace_has_all_keys
+    tr = self._run(hybrid)["trace"]
+         ~~~~~~~~~^^^^^^^^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 278, in _run
+    return hr.multi_query_child_retrieval(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        question, self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        chunks_dir=Path(__file__).resolve().parent / "fixtures",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_variant_failure_gives_partial_status 
+(tests.test_crossquery.PipelineTests.test_variant_failure_gives_partial_status)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 318, in 
+test_variant_failure_gives_partial_status
+    res = self._run(hybrid)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_crossquery.py", line 278, in _run
+    return hr.multi_query_child_retrieval(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        question, self.config, self.hcfg,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        chunks_dir=Path(__file__).resolve().parent / "fixtures",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+======================================================================
+ERROR: test_single_parent_mode_no_variants 
+(tests.test_parent_retrieval.PipelineTests.test_single_parent_mode_no_variants)
+single_parent ch\u1ec9 d∙ng Q0 -> kh⌠ng g\u1ecdi generator.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\tests\test_parent_retrieval.py", line 401, in 
+test_single_parent_mode_no_variants
+    res = hr.parent_retrieval(
+        "\u0110i\u1ec1u 7 quy \u0111\u1ecbnh g∞?", self.config, self.hcfg, mode="single_parent",
+    ...<2 lines>...
+        hybrid_fn=FakeHybrid(self),
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1330, in 
+parent_retrieval
+    child_result = multi_query_child_retrieval(
+        question, config, hcfg,
+    ...<7 lines>...
+        hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 1047, in 
+multi_query_child_retrieval
+    retrieval = retrieve_per_query(
+        query_set, config, strategy, bm25_index=bm25_index,
+        chunks_dir=chunks_dir, persist_path=persist_path,
+        embed_client_factory=embed_client_factory, hybrid_fn=hybrid_fn,
+    )
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\hierarchical_rag.py", line 870, in 
+retrieve_per_query
+    index = ar.build_bm25_index(chunks)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_09\advanced_rag.py", line 256, in build_bm25_index
+    from rank_bm25 import BM25Okapi
+ModuleNotFoundError: No module named 'rank_bm25'
+
+----------------------------------------------------------------------
+Ran 190 tests in 6.837s
+
+FAILED (errors=47)

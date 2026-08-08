@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+storage/chroma/
+storage/hierarchy/
+storage/huggingface/
+reports/*.json
+.streamlit/

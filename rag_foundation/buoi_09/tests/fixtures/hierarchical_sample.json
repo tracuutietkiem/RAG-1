@@ -1,0 +1,102 @@
+[
+  {
+    "chunk_id": "demo_src_a_hierarchical_0001",
+    "strategy": "hierarchical",
+    "source": "demo_van_ban_a.pdf",
+    "page_start": 1,
+    "page_end": 1,
+    "structure_path": "Chương I",
+    "structure_detected": true,
+    "text": "# Chương I. Quy định chung"
+  },
+  {
+    "chunk_id": "demo_src_a_hierarchical_0002",
+    "strategy": "hierarchical",
+    "source": "demo_van_ban_a.pdf",
+    "page_start": 1,
+    "page_end": 1,
+    "structure_path": "Chương I > Điều 1",
+    "structure_detected": true,
+    "text": "Điều 1. Phạm vi điều chỉnh. Văn bản mô phỏng này quy định nguyên tắc chung, dùng cho mục đích huấn luyện, không phải văn bản pháp luật thật."
+  },
+  {
+    "chunk_id": "demo_src_a_hierarchical_0003",
+    "strategy": "hierarchical",
+    "source": "demo_van_ban_a.pdf",
+    "page_start": 1,
+    "page_end": 2,
+    "structure_path": "Chương I > Điều 1 > Khoản 1",
+    "structure_detected": true,
+    "text": "1. Tổ chức tín dụng mô phỏng phải tuân thủ nguyên tắc quản trị rủi ro khi cấp tín dụng cho khách hàng mô phỏng."
+  },
+  {
+    "chunk_id": "demo_src_a_hierarchical_0004",
+    "strategy": "hierarchical",
+    "source": "demo_van_ban_a.pdf",
+    "page_start": 2,
+    "page_end": 2,
+    "structure_path": "Chương I > Điều 1 > Khoản 2",
+    "structure_detected": true,
+    "text": "2. Việc đánh giá khả năng trả nợ thực hiện theo quy định tại khoản 4 Điều 8 Thông tư mô phỏng này. Đây là TRÍCH DẪN CHÉO, không phải heading của Điều 8."
+  },
+  {
+    "chunk_id": "demo_src_a_hierarchical_0005",
+    "strategy": "hierarchical",
+    "source": "demo_van_ban_a.pdf",
+    "page_start": 3,
+    "page_end": 3,
+    "structure_path": "Chương I > Điều 2",
+    "structure_detected": true,
+    "text": "Điều 2. Giải thích từ ngữ. Trong văn bản mô phỏng này, các thuật ngữ dưới đây được hiểu như sau."
+  },
+  {
+    "chunk_id": "demo_src_a_hierarchical_0006",
+    "strategy": "hierarchical",
+    "source": "demo_van_ban_a.pdf",
+    "page_start": 3,
+    "page_end": 3,
+    "structure_path": "Chương I > Điều 2 > Khoản 1",
+    "structure_detected": true,
+    "text": "1. Cơ cấu lại thời hạn trả nợ mô phỏng là việc điều chỉnh kỳ hạn trả nợ gốc hoặc lãi theo đề nghị của khách hàng mô phỏng."
+  },
+  {
+    "chunk_id": "demo_src_a_hierarchical_0007",
+    "strategy": "hierarchical",
+    "source": "demo_van_ban_a.pdf",
+    "page_start": 4,
+    "page_end": 4,
+    "structure_path": "Chương II > Khoản 1",
+    "structure_detected": true,
+    "text": "1. Đoạn mô phỏng thuộc Chương II nhưng KHÔNG có Điều trong metadata — phải dùng document_fallback để dựng parent, giống 106 record Chương IV của corpus thật."
+  },
+  {
+    "chunk_id": "demo_src_a_hierarchical_0008",
+    "strategy": "hierarchical",
+    "source": "demo_van_ban_a.pdf",
+    "page_start": 4,
+    "page_end": 5,
+    "structure_path": "Chương II > Khoản 2",
+    "structure_detected": true,
+    "text": "2. Đoạn mô phỏng thứ hai cũng thuộc Chương II không có Điều, dùng để kiểm tra hai child cùng gom về một parent fallback."
+  },
+  {
+    "chunk_id": "demo_src_b_hierarchical_0001",
+    "strategy": "hierarchical",
+    "source": "demo_van_ban_b.pdf",
+    "page_start": 1,
+    "page_end": 1,
+    "structure_path": "Chương I > Điều 1",
+    "structure_detected": true,
+    "text": "Điều 1. Văn bản mô phỏng B. Dùng để kiểm tra KHÔNG carry-forward chapter/article sang source khác."
+  },
+  {
+    "chunk_id": "demo_src_b_hierarchical_0002",
+    "strategy": "hierarchical",
+    "source": "demo_van_ban_b.pdf",
+    "page_start": 1,
+    "page_end": 1,
+    "structure_path": "Chương I",
+    "structure_detected": true,
+    "text": "Đoạn mô phỏng B không có Điều, đứng sau một chunk có Điều 1 của CÙNG source B. Carry-forward chỉ được phép trong phạm vi source này."
+  }
+]
