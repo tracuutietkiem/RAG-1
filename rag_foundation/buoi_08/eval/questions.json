@@ -1,0 +1,185 @@
+[
+  {
+    "query_id": "Q01",
+    "question": "Tỷ lệ an toàn vốn được xác định theo công thức nào?",
+    "relevant_chunk_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0143",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0144",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0145",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0146",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0147",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0148",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0149",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0150",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0151"
+    ],
+    "scope": "in_scope",
+    "needs_human_review": true,
+    "label_rule": "Toàn bộ chunk thuộc Điều 6, trừ chunk chỉ có tiêu đề",
+    "source_article": "Điều 6"
+  },
+  {
+    "query_id": "Q02",
+    "question": "Vốn tự có của ngân hàng bao gồm những cấu phần nào?",
+    "relevant_chunk_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0153",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0154"
+    ],
+    "scope": "in_scope",
+    "needs_human_review": true,
+    "label_rule": "Toàn bộ chunk thuộc Điều 7, trừ chunk chỉ có tiêu đề",
+    "source_article": "Điều 7"
+  },
+  {
+    "query_id": "Q03",
+    "question": "Tài sản tính theo rủi ro tín dụng được xác định thế nào?",
+    "relevant_chunk_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0157",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0158",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0159",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0160",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0161",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0162",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0163",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0164",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0165"
+    ],
+    "scope": "in_scope",
+    "needs_human_review": true,
+    "label_rule": "Toàn bộ chunk thuộc Điều 8, trừ chunk chỉ có tiêu đề",
+    "source_article": "Điều 8"
+  },
+  {
+    "query_id": "Q04",
+    "question": "Hệ số chuyển đổi CCF dùng để làm gì?",
+    "relevant_chunk_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0198",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0199",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0200",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0201",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0202",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0203",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0204",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0205",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0206",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0207",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0208",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0209",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0210",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0211",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0212"
+    ],
+    "scope": "in_scope",
+    "needs_human_review": true,
+    "label_rule": "Toàn bộ chunk thuộc Điều 10, trừ chunk chỉ có tiêu đề",
+    "source_article": "Điều 10"
+  },
+  {
+    "query_id": "Q05",
+    "question": "Giảm thiểu rủi ro tín dụng bằng tài sản bảo đảm được thực hiện ra sao?",
+    "relevant_chunk_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0229",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0230",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0231",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0232",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0233",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0234",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0235",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0236",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0237",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0238",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0239",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0240",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0241",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0242",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0243"
+    ],
+    "scope": "in_scope",
+    "needs_human_review": true,
+    "label_rule": "Toàn bộ chunk thuộc Điều 12, trừ chunk chỉ có tiêu đề",
+    "source_article": "Điều 12"
+  },
+  {
+    "query_id": "Q06",
+    "question": "Điều kiện để bù trừ số dư nội bảng khi giảm thiểu rủi ro tín dụng là gì?",
+    "relevant_chunk_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0245",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0246",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0247",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0248",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0249",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0250",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0251",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0252"
+    ],
+    "scope": "in_scope",
+    "needs_human_review": true,
+    "label_rule": "Toàn bộ chunk thuộc Điều 13, trừ chunk chỉ có tiêu đề",
+    "source_article": "Điều 13"
+  },
+  {
+    "query_id": "Q07",
+    "question": "Vốn yêu cầu cho rủi ro thị trường được tính như thế nào?",
+    "relevant_chunk_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0294",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0295",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0296",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0297",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0298",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0299"
+    ],
+    "scope": "in_scope",
+    "needs_human_review": true,
+    "label_rule": "Toàn bộ chunk thuộc Điều 18, trừ chunk chỉ có tiêu đề",
+    "source_article": "Điều 18"
+  },
+  {
+    "query_id": "Q08",
+    "question": "Ngân hàng phải thực hiện chế độ báo cáo với Ngân hàng Nhà nước ra sao?",
+    "relevant_chunk_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0301"
+    ],
+    "scope": "in_scope",
+    "needs_human_review": true,
+    "label_rule": "Toàn bộ chunk thuộc Điều 19, trừ chunk chỉ có tiêu đề",
+    "source_article": "Điều 19"
+  },
+  {
+    "query_id": "Q09",
+    "question": "Doanh nghiệp xếp hạng tín nhiệm độc lập phải đáp ứng điều kiện gì?",
+    "relevant_chunk_ids": [
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0121",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0122",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0123",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0124",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0125",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0126",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0127",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0128",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0129",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0130",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0131",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0132",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0133",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0134",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0135",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0136",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0137",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0138",
+      "2026-08-01_TaiLieu_NHNNSigned_hierarchical_0139"
+    ],
+    "scope": "in_scope",
+    "needs_human_review": true,
+    "label_rule": "Toàn bộ chunk thuộc Điều 5, trừ chunk chỉ có tiêu đề",
+    "source_article": "Điều 5"
+  },
+  {
+    "query_id": "Q10",
+    "question": "Ngân hàng nào có lãi suất tiết kiệm cao nhất hôm nay?",
+    "relevant_chunk_ids": [],
+    "scope": "out_of_scope",
+    "needs_human_review": true,
+    "label_rule": "Câu hỏi ngoài phạm vi văn bản — không có chunk liên quan",
+    "source_article": null
+  }
+]
