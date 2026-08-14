@@ -1,0 +1,11 @@
+﻿==============================================================
+  BUỔI 10 — Chunking HTML, Embedding tiếng Việt, nạp Neo4j
+  Bắt đầu: 2026-08-12 20:10:56
+  Thư mục: D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_10
+==============================================================
+
+[C1] Kiểm tra virtual environment...
+     Chưa có .venv — đang tạo mới...
+     OK — Python 3.14.3
+
+[C2] Kiểm tra torch (bắt buộc bản CPU)...

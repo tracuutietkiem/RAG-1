@@ -1,0 +1,56 @@
+{
+  "documents": [
+    {
+      "doc_id": "41/2016/TT-NHNN",
+      "title": "Quy định tỷ lệ an toàn vốn đối với ngân hàng, chi nhánh ngân hàng nước ngoài",
+      "doc_type": "Thông tư",
+      "issue_number": "41/2016/TT-NHNN",
+      "has_chunks": true,
+      "source_file": "41_2016_TT_NHNN.html"
+    },
+    {
+      "doc_id": "46/2010/QH12",
+      "title": "Luật Ngân hàng Nhà nước Việt Nam số 46/2010/QH12 ngày 16 tháng 6 năm 2010",
+      "doc_type": "Luật",
+      "issue_number": "46/2010/QH12",
+      "has_chunks": true,
+      "source_file": "46_2010_QH12.html",
+      "note": "Nạp toàn văn Điều 1–66 (đầy đủ) ngày 2026-08-12, lấy từ thuvienphapluat.vn. Đối chiếu lại với vbpl.vn trước khi dùng cho mục đích nghiệp vụ thật."
+    },
+    {
+      "doc_id": "47/2010/QH12",
+      "title": "Luật các tổ chức tín dụng số 47/2010/QH12 ngày 16 tháng 6 năm 2010",
+      "doc_type": "Luật",
+      "issue_number": "47/2010/QH12",
+      "has_chunks": true,
+      "source_file": "47_2010_QH12.html",
+      "note": "CHỈ NẠP MỘT PHẦN: Điều 1–49 trong tổng số 165 Điều (nguồn công khai miễn phí trên thuvienphapluat.vn dừng lại khoảng đó; không có công cụ tự động để lấy toàn văn 165 Điều trong phiên này). Điều 50 trở đi CHƯA có trong đồ thị — nếu multi-hop hoặc vector search không tìm thấy nội dung liên quan ở các Điều đó thì đây là giới hạn dữ liệu đã biết, không phải lỗi. Cần nạp bổ sung sau."
+    },
+    {
+      "doc_id": "156/2013/NĐ-CP",
+      "title": "Nghị định số 156/2013/NĐ-CP ngày 11 tháng 11 năm 2013 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Ngân hàng Nhà nước Việt Nam",
+      "doc_type": "Nghị định",
+      "issue_number": "156/2013/NĐ-CP",
+      "has_chunks": true,
+      "source_file": "156_2013_ND_CP.html",
+      "note": "Nạp toàn văn Điều 1–6 (đầy đủ) ngày 2026-08-12, lấy từ thuvienphapluat.vn. Đối chiếu lại với vbpl.vn trước khi dùng cho mục đích nghiệp vụ thật."
+    }
+  ],
+  "relationships": [
+    {
+      "from": "41/2016/TT-NHNN",
+      "type": "CAN_CU",
+      "to": "46/2010/QH12"
+    },
+    {
+      "from": "41/2016/TT-NHNN",
+      "type": "CAN_CU",
+      "to": "47/2010/QH12"
+    },
+    {
+      "from": "41/2016/TT-NHNN",
+      "type": "CAN_CU",
+      "to": "156/2013/NĐ-CP"
+    }
+  ]
+}

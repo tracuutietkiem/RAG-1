@@ -1,0 +1,32 @@
+# QUAN TRỌNG — CÁCH CÀI TORCH (đọc trước khi pip install)
+#
+# KHÔNG chạy thẳng `pip install torch`. Trên PyPI, gói torch mặc định là bản
+# GPU: nó kéo theo ~3 GB thư viện CUDA (nvidia-cudnn, nvidia-nccl, cusparselt...)
+# mà máy không có GPU hoàn toàn không dùng đến. Đề bài Buổi 10 yêu cầu rõ chỉ
+# dùng bản CPU.
+#
+# Cài đúng cách — chạy LỆNH NÀY TRƯỚC:
+#
+#     pip install torch --index-url https://download.pytorch.org/whl/cpu
+#
+# rồi mới:
+#
+#     pip install -r requirements.txt
+#
+# Kiểm tra đã đúng bản CPU:
+#
+#     python -c "import torch; print(torch.__version__)"
+#
+# Kết quả có hậu tố "+cpu" (ví dụ 2.6.0+cpu) là đúng.
+
+# lxml KHÔNG khai báo ở đây nữa: bản 5.x không có sẵn wheel cho một số bản
+# Python mới trên Windows (ví dụ 3.14), khiến pip phải biên dịch từ mã nguồn
+# và đòi hỏi cài thêm Microsoft C++ Build Tools. html_parser.py đã đổi sang
+# dùng "html.parser" (built-in chuẩn Python) nên không còn phụ thuộc lxml.
+python-dotenv>=1.2,<2
+beautifulsoup4>=4.12,<5
+sentence-transformers>=3.0,<4
+neo4j>=5.24,<6
+
+# torch KHÔNG khai báo ở đây (xem hướng dẫn ở đầu file). sentence-transformers
+# cần torch nhưng nếu đã cài bản +cpu trước thì pip sẽ giữ nguyên, không tải lại.

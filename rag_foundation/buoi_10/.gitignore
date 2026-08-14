@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+storage/*
+!storage/.gitkeep
+reports/*.json
+!reports/.gitkeep
+data/raw_html/*
+!data/raw_html/.gitkeep
