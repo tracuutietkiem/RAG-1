@@ -1,0 +1,233 @@
+source,target,relationship_type,method,confidence,evidence
+01/2014/TT-NHNN,Đào Minh Tú,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đào Minh Tú'
+37/2014/TT-NHNN,Đào Minh Tú,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đào Minh Tú'
+29/2024/TT-NHNN,Đào Minh Tú,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đào Minh Tú'
+27/2024/TT-NHNN,Đào Minh Tú,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đào Minh Tú'
+52/VBHN-NHNN,Đoàn Thái Sơn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+63/2025/TT-NHNN,Đoàn Thái Sơn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+69/2025/TT-NHNN,Đoàn Thái Sơn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+62/2025/TT-NHNN,Đoàn Thái Sơn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+37/2014/TT-NHNN,Phát hành và kho quỹ,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Phát hành và kho quỹ'
+01/2014/TT-NHNN,Phát hành và kho quỹ,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Phát hành và kho quỹ'
+44/2011/TT-NHNN,"Kế toán, kiểm toán",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Kế toán, kiểm toán'"
+01/2025/TT-NHNN,Đoàn Thái Sơn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+05/2019/NĐ-CP,"Kế toán, kiểm toán",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Kế toán, kiểm toán'"
+62/2024/TT-NHNN,Đoàn Thái Sơn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+08/2021/TT-BTC,"Kế toán, kiểm toán",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Kế toán, kiểm toán'"
+66/2020/TT-BTC,"Kế toán, kiểm toán",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Kế toán, kiểm toán'"
+202/2012/TT-BTC,Quản lý dịch vụ tài chính và các quỹ tài chính,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Quản lý dịch vụ tài chính và các quỹ tài chính'
+105/2016/TT-BTC,Chứng khoán,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Chứng khoán'
+63/2025/TT-NHNN,"Lao động, tiền lương, tiền công",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Lao động, tiền lương, tiền công'"
+62/2025/TT-NHNN,Cục An toàn hệ thống các tổ chức tín dụng,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Cục An toàn hệ thống các tổ chức tín dụng'
+69/2025/TT-NHNN,Cục An toàn hệ thống các tổ chức tín dụng,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Cục An toàn hệ thống các tổ chức tín dụng'
+01/2025/TT-NHNN,Cục An toàn hệ thống các tổ chức tín dụng,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Cục An toàn hệ thống các tổ chức tín dụng'
+17/VBHN-BTC,Chứng khoán,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Chứng khoán'
+156/2020/NĐ-CP,Chứng khoán,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Chứng khoán'
+27/2024/TT-NHNN,"Thanh tra, giám sát ngân hàng",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+135/2015/NĐ-CP,Quản lý ngoại hối,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Quản lý ngoại hối'
+41/2016/TT-NHNN,"Thanh tra, giám sát ngân hàng",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+22/2023/TT-NHNN,"Thanh tra, giám sát ngân hàng",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+57/2024/TT-NHNN,"Thanh tra, giám sát ngân hàng",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+73/2016/NĐ-CP,Bảo hiểm,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Bảo hiểm'
+46/2023/NĐ-CP,Bảo hiểm,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Bảo hiểm'
+17/VBHN-BTC,"tổ chức tư vấn niêm yết, đăng ký giao dịch",AP_DUNG_CHO,metadata_original,1.0,nan
+17/VBHN-BTC,"tổ chức đấu thầu, đại lý phát hành",AP_DUNG_CHO,metadata_original,1.0,nan
+105/2016/TT-BTC,Bộ Tài chính,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Bộ Tài chính'
+01/2025/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+63/2025/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+69/2025/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+62/2025/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+44/2011/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+37/2014/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+17/VBHN-BTC,Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam và công ty con,AP_DUNG_CHO,metadata_original,1.0,nan
+17/VBHN-BTC,"Tổ chức tư vấn chào bán, phát hành, tổ chức bảo lãnh phát hành",AP_DUNG_CHO,metadata_original,1.0,nan
+17/VBHN-BTC,"Tổ chức niêm yết, tổ chức đăng ký giao dịch",AP_DUNG_CHO,metadata_original,1.0,nan
+17/VBHN-BTC,Sở giao dịch chứng khoán Việt Nam và công ty con,AP_DUNG_CHO,metadata_original,1.0,nan
+52/VBHN-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+32/2024/QH15,Quốc hội,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Quốc hội'
+17/2023/QH15,Quốc hội,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Quốc hội'
+46/2010/QH12,Quốc hội,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Quốc hội'
+67/2011/QH12,Quốc hội,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Quốc hội'
+62/2024/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+46/2010/QH12,Nguyễn Phú Trọng,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Phú Trọng'
+46/2023/NĐ-CP,Lê Minh Khái,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Lê Minh Khái'
+32/2024/QH15,Tín dụng,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Tín dụng'
+52/VBHN-NHNN,"Thanh tra, giám sát ngân hàng",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+62/2024/TT-NHNN,"Thanh tra, giám sát ngân hàng",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+43/2024/TT-NHNN,Quản lý ngoại hối,THUOC_LINH_VUC,metadata_original,1.0,metadata.csv: linh_vuc = 'Quản lý ngoại hối'
+105/2016/TT-BTC,Trần Xuân Hà,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Trần Xuân Hà'
+44/2011/TT-NHNN,Trần Minh Tuấn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Trần Minh Tuấn'
+17/VBHN-BTC,Nguyễn Đức Chi,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Đức Chi'
+43/2024/TT-NHNN,Phạm Thanh Hà,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Phạm Thanh Hà'
+41/2016/TT-NHNN,Nguyễn Đồng Tiến,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Đồng Tiến'
+156/2020/NĐ-CP,Nguyễn Xuân Phúc,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Xuân Phúc'
+05/2019/NĐ-CP,Nguyễn Xuân Phúc,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Xuân Phúc'
+73/2016/NĐ-CP,Nguyễn Xuân Phúc,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Xuân Phúc'
+56/2024/TT-NHNN,Đoàn Thái Sơn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+57/2024/TT-NHNN,Đoàn Thái Sơn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+22/2023/TT-NHNN,Đoàn Thái Sơn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+17/2023/QH15,Vương Đình Huệ,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Vương Đình Huệ'
+32/2024/QH15,Vương Đình Huệ,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Vương Đình Huệ'
+08/2021/TT-BTC,Tạ Anh Tuấn,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Tạ Anh Tuấn'
+202/2012/TT-BTC,Trần Xuân Hà,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Trần Xuân Hà'
+46/2023/NĐ-CP,Chính phủ,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Chính phủ'
+156/2020/NĐ-CP,Chính phủ,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Chính phủ'
+05/2019/NĐ-CP,Chính phủ,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Chính phủ'
+73/2016/NĐ-CP,Chính phủ,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Chính phủ'
+17/VBHN-BTC,Bộ Tài chính,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Bộ Tài chính'
+202/2012/TT-BTC,Bộ Tài chính,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Bộ Tài chính'
+08/2021/TT-BTC,Bộ Tài chính,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Bộ Tài chính'
+66/2020/TT-BTC,Bộ Tài chính,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Bộ Tài chính'
+56/2024/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+57/2024/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+43/2024/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+29/2024/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+27/2024/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+22/2023/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+41/2016/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+135/2015/NĐ-CP,Chính phủ,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Chính phủ'
+01/2014/TT-NHNN,Ngân hàng Nhà nước Việt Nam,BAN_HANH_BOI,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+56/2024/TT-NHNN,"Thanh tra, giám sát ngân hàng",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+29/2024/TT-NHNN,"Thanh tra, giám sát ngân hàng",THUOC_LINH_VUC,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+67/2011/QH12,Nguyễn Phú Trọng,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Phú Trọng'
+135/2015/NĐ-CP,Nguyễn Tấn Dũng,KY_BOI,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Tấn Dũng'
+37/2014/TT-NHNN,46/2010/QH12,THAM_CHIEU,rule,0.95,Căn cứ Luật Ngân hàng Nhà nước Việt Nam số 46/2010/QH12;
+41/2016/TT-NHNN,46/2010/QH12,THAM_CHIEU,rule,0.95,Căn cứ Luật Ngân hàng Nhà nước Việt Nam số 46/2010/QH12 ngày 16 tháng 6 năm 2010;
+01/2014/TT-NHNN,46/2010/QH12,THAM_CHIEU,rule,0.95,Căn cứ Luật Ngân hàng Nhà nước Việt Nam số 46/2010/QH12 ngày 16 tháng 6 năm 2010;
+63/2025/TT-NHNN,32/2024/QH15,THAM_CHIEU,rule,0.95,"Căn cứ Luật Các tổ chức tín dụng số 32/2024/QH15 được sửa đổi, bổ sung bởi Luật số 96/2025/QH15;"
+69/2025/TT-NHNN,46/2010/QH12,THAM_CHIEU,rule,0.95,Căn cứ Luật Ngân hàng Nhà nước Việt Nam số 46/2010/QH12;
+69/2025/TT-NHNN,32/2024/QH15,THAM_CHIEU,rule,0.95,"Căn cứ Luật Các tổ chức tín dụng số 32/2024/QH15 được sửa đổi, bổ sung bởi Luật số 96/2025/QH15;"
+08/2021/TT-BTC,05/2019/NĐ-CP,THAM_CHIEU,rule,0.95,Căn cứ Nghị định 05/2019/NĐ-CP ngày 22 tháng 01 năm 2019 của Chính phủ về kiểm toán nội bộ;
+105/2016/TT-BTC,135/2015/NĐ-CP,THAM_CHIEU,rule,0.95,Căn cứ Nghị định số 135/2015/NĐ-CP ngày 31 tháng 12 năm 2015 của Chính phủ quy định về đầu tư gián tiếp ra nước ngoài;
+62/2025/TT-NHNN,32/2024/QH15,THAM_CHIEU,rule,0.95,"Căn cứ Luật Các tổ chức tín dụng số 32/2024/QH15 được sửa đổi, bổ sung bởi Luật số 96/2025/QH15;"
+62/2025/TT-NHNN,46/2010/QH12,THAM_CHIEU,rule,0.95,Căn cứ Luật Ngân hàng Nhà nước Việt Nam số 46/2010/QH12;
+63/2025/TT-NHNN,17/2023/QH15,THAM_CHIEU,rule,0.95,Căn cứ Luật Hợp tác xã số 17/2023/QH15;
+63/2025/TT-NHNN,46/2010/QH12,THAM_CHIEU,rule,0.95,Căn cứ Luật Ngân hàng Nhà nước Việt Nam số 46/2010/QH12;
+44/2011/TT-NHNN,46/2010/QH12,THAM_CHIEU,rule,0.95,Căn cứ Luật Ngân hàng Nhà nước Việt Nam số 46/2010/QH12 ngày 16 tháng 6 năm 2010;
+66/2020/TT-BTC,05/2019/NĐ-CP,THAM_CHIEU,rule,0.95,Căn cứ Nghị định số 05/2019/NĐ-CP ngày 22 thảng 01 năm 2019 của Chính phủ về kiếm toán nội bộ;
+202/2012/TT-BTC,67/2011/QH12,THAM_CHIEU,rule,0.95,Căn cứ Luật Kiểm toán độc lập số 67/2011/QH12 ngày 29 tháng 3 năm 2011;
+43/2024/TT-NHNN,01/2014/TT-NHNN,SUA_DOI_BO_SUNG,rule,0.9,"Sửa đổi, bổ sung một số điều của Thông tư số 01/2014/TT-NHNN ngày 10"
+17/VBHN-BTC,156/2020/NĐ-CP,SUA_DOI_BO_SUNG,rule,0.9,"Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 156/2020/NĐ-CP ngày 31 tháng 12 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán, có hiệu lực thi hành kể từ ngày 01 tháng 01 n"
+135/2015/NĐ-CP,Cá nhân có quốc tịch Việt Nam thuộc đối tượng được tham gia chương trình thưởng cổ phiếu phát hành ở nước ngoài,AP_DUNG_CHO,claude_llm,0.9,b) Cá nhân có quốc tịch Việt Nam thuộc đối tượng được tham gia chương trình thưởng cổ phiếu phát hành ở nước ngoài.
+44/2011/TT-NHNN,Chi nhánh ngân hàng nước ngoài,AP_DUNG_CHO,claude_llm,0.9,2. Chi nhánh ngân hàng nước ngoài.
+41/2016/TT-NHNN,Chi nhánh ngân hàng nước ngoài,AP_DUNG_CHO,claude_llm,0.9,2. Chi nhánh ngân hàng nước ngoài.
+32/2024/QH15,Chi nhánh ngân hàng nước ngoài,AP_DUNG_CHO,claude_llm,0.9,2. Chi nhánh ngân hàng nước ngoài.
+56/2024/TT-NHNN,Chi nhánh ngân hàng nước ngoài,AP_DUNG_CHO,claude_llm,0.9,2. Chi nhánh ngân hàng nước ngoài.
+05/2019/NĐ-CP,"Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ",AP_DUNG_CHO,claude_llm,0.9,"a) Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ;"
+17/VBHN-BTC,Công ty đại chúng,AP_DUNG_CHO,claude_llm,0.9,a) Công ty đại chúng;
+57/2024/TT-NHNN,Công ty tài chính tổng hợp,AP_DUNG_CHO,claude_llm,0.9,1. Công ty tài chính tổng hợp.
+57/2024/TT-NHNN,Công ty tài chính chuyên ngành,AP_DUNG_CHO,claude_llm,0.9,2. Công ty tài chính chuyên ngành.
+52/VBHN-NHNN,Chi nhánh ngân hàng nước ngoài,AP_DUNG_CHO,claude_llm,0.9,2. Chi nhánh ngân hàng nước ngoài.
+73/2016/NĐ-CP,Chi nhánh nước ngoài,AP_DUNG_CHO,claude_llm,0.9,b) Chi nhánh nước ngoài;
+27/2024/TT-NHNN,Ngân hàng hợp tác xã,AP_DUNG_CHO,claude_llm,0.9,1. Ngân hàng hợp tác xã.
+62/2024/TT-NHNN,Ngân hàng thương mại,AP_DUNG_CHO,claude_llm,0.9,a) Ngân hàng thương mại;
+52/VBHN-NHNN,Ngân hàng thương mại,AP_DUNG_CHO,claude_llm,0.9,a) Ngân hàng thương mại;
+202/2012/TT-BTC,"Kiểm toán viên đăng ký hành nghề tại doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam",AP_DUNG_CHO,claude_llm,0.9,"1. Kiểm toán viên đăng ký hành nghề tại doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam."
+56/2024/TT-NHNN,Ngân hàng thương mại,AP_DUNG_CHO,claude_llm,0.9,a) Ngân hàng thương mại;
+29/2024/TT-NHNN,Ngân hàng hợp tác xã,AP_DUNG_CHO,claude_llm,0.9,1. Ngân hàng hợp tác xã.
+202/2012/TT-BTC,"Doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam",AP_DUNG_CHO,claude_llm,0.9,"2. Doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam (sau đây gọi chung là doanh nghiệp kiểm toán)."
+17/VBHN-BTC,"Cổ đông, nhà đầu tư là tổ chức",AP_DUNG_CHO,claude_llm,0.9,"i) Cổ đông, nhà đầu tư là tổ chức;"
+05/2019/NĐ-CP,Doanh nghiệp,AP_DUNG_CHO,claude_llm,0.9,d) Các doanh nghiệp;
+73/2016/NĐ-CP,Doanh nghiệp bảo hiểm,AP_DUNG_CHO,claude_llm,0.9,a) Doanh nghiệp bảo hiểm;
+46/2023/NĐ-CP,Cơ quan quản lý nhà nước về hoạt động kinh doanh bảo hiểm,AP_DUNG_CHO,claude_llm,0.9,4. Cơ quan quản lý nhà nước về hoạt động kinh doanh bảo hiểm.
+69/2025/TT-NHNN,62/2024/TT-NHNN,SUA_DOI_BO_SUNG,rule,0.9,"SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA THÔNG TƯ SỐ 62/2024/TT-NHNN CỦA THỐNG ĐỐC NGÂN HÀNG NHÀ NƯỚC VIỆT NAM QUY ĐỊNH VỀ ĐIỀU KIỆN, HỒ SƠ, THỦ TỤC CHẤP THUẬN VIỆC TỔ CHỨC LẠI NGÂN HÀNG THƯƠNG MẠI, TỔ CHỨC TÍN DỤNG PHI NGÂN HÀNG"
+05/2019/NĐ-CP,Đơn vị sự nghiệp công lập,AP_DUNG_CHO,claude_llm,0.9,c) Các đơn vị sự nghiệp công lập;
+37/2014/TT-NHNN,Đơn vị có liên quan thuộc Ngân hàng Nhà nước,AP_DUNG_CHO,claude_llm,0.9,1. Các đơn vị có liên quan thuộc Ngân hàng Nhà nước.
+46/2023/NĐ-CP,73/2016/NĐ-CP,SUA_DOI_BO_SUNG,rule,0.9,"m và Luật sửa đổi, bổ sung một số điều của Luật Kinh doanh bảo hiểm, trừ các Điều 10, 61, 62, 63, 64, 65, 66, 67. Các Điều 10, 61, 62, 63, 64, 65, 66, 67 của Nghị định số 73/2016/NĐ-CP có hiệu lực đến hết ngày 31 tháng 12 năm 2027;"
+135/2015/NĐ-CP,Tổ chức kinh tế theo quy định tại Khoản 16 Điều 3 Luật Đầu tư,AP_DUNG_CHO,claude_llm,0.9,a) Tổ chức kinh tế theo quy định tại Khoản 16 Điều 3 Luật Đầu tư;
+27/2024/TT-NHNN,Quỹ tín dụng nhân dân,AP_DUNG_CHO,claude_llm,0.9,2. Quỹ tín dụng nhân dân.
+29/2024/TT-NHNN,Quỹ tín dụng nhân dân,AP_DUNG_CHO,claude_llm,0.9,2. Quỹ tín dụng nhân dân.
+01/2025/TT-NHNN,Quỹ tín dụng nhân dân,AP_DUNG_CHO,claude_llm,0.9,2. Quỹ tín dụng nhân dân.
+37/2014/TT-NHNN,Nhà máy in tiền Quốc gia,AP_DUNG_CHO,claude_llm,0.9,2. Nhà máy in tiền Quốc gia.
+17/VBHN-BTC,Tổ chức phát hành,AP_DUNG_CHO,claude_llm,0.9,c) Tổ chức phát hành;
+62/2025/TT-NHNN,Tổ chức tài chính vi mô,AP_DUNG_CHO,claude_llm,0.9,2. Tổ chức tài chính vi mô.
+32/2024/QH15,Tổ chức tín dụng,AP_DUNG_CHO,claude_llm,0.9,1. Tổ chức tín dụng.
+44/2011/TT-NHNN,Tổ chức tín dụng,AP_DUNG_CHO,claude_llm,0.9,1. Tổ chức tín dụng.
+62/2025/TT-NHNN,"Tổ chức tín dụng là hợp tác xã bao gồm ngân hàng hợp tác xã, quỹ tín dụng nhân dân",AP_DUNG_CHO,claude_llm,0.9,"1. Tổ chức tín dụng là hợp tác xã bao gồm ngân hàng hợp tác xã, quỹ tín dụng nhân dân."
+01/2014/TT-NHNN,"Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài",AP_DUNG_CHO,claude_llm,0.9,"2. Tổ chức tín dụng, chi nhánh ngân hàng nước ngoài."
+17/VBHN-BTC,Tổ chức xã hội - nghề nghiệp về chứng khoán,AP_DUNG_CHO,claude_llm,0.9,l) Tổ chức xã hội - nghề nghiệp về chứng khoán;
+46/2023/NĐ-CP,Tổ chức và cá nhân có liên quan đến hoạt động kinh doanh bảo hiểm,AP_DUNG_CHO,claude_llm,0.9,5. Tổ chức và cá nhân có liên quan đến hoạt động kinh doanh bảo hiểm.
+17/VBHN-BTC,Tổ chức kiểm toán được chấp thuận,AP_DUNG_CHO,claude_llm,0.9,đ) Tổ chức kiểm toán được chấp thuận;
+17/2023/QH15,"Thành viên của tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã",AP_DUNG_CHO,claude_llm,0.9,"2. Thành viên của tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã."
+66/2020/TT-BTC,Đỗ Hoàng Anh Tuấn,KY_BOI,claude_llm,0.9,"KT. BỘ TRƯỞNG
+THỨ TRƯỞNG
+(Đã ký)
+Đỗ Hoàng Anh Tuấn"
+63/2025/TT-NHNN,29/2024/TT-NHNN,SUA_DOI_BO_SUNG,rule,0.9,"SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA THÔNG TƯ SỐ 29/2024/TT-NHNN QUY ĐỊNH VỀ QUỸ TÍN DỤNG NHÂN DÂN"
+63/2025/TT-NHNN,01/2025/TT-NHNN,SUA_DOI_BO_SUNG,rule,0.9,"SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA THÔNG TƯ SỐ 01/2025/TT-NHNN QUY ĐỊNH VỀ CẤP GIẤY PHÉP LẦN ĐẦU, CẤP ĐỔI GIẤY PHÉP CỦA QUỸ TÍN DỤNG NHÂN DÂN"
+17/2023/QH15,"Tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã",AP_DUNG_CHO,claude_llm,0.9,"1. Tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã."
+67/2011/QH12,Kiểm toán,THUOC_LINH_VUC,claude_llm,0.9,"LUẬT
+Kiểm toán độc lập"
+05/2019/NĐ-CP,"Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương",AP_DUNG_CHO,claude_llm,0.9,"b) Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương;"
+22/2023/TT-NHNN,41/2016/TT-NHNN,SUA_DOI_BO_SUNG,rule,0.9,"Sửa đổi, bổ sung một số điều của Thông tư số 41/2016/TT-NHNN ngày 30 tháng 12 năm 2016 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định tỷ lệ an toàn vốn đối với ngân hàng, chi nhánh ngân hàng nước ngoài"
+44/2011/TT-NHNN,62/2025/TT-NHNN,THAY_THE_BOI,rule,0.9,"ng tư này bãi bỏ Thông tư số 44/2011/TT-NHNN ngày 29 tháng 12 năm 2011 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định về hệ thống kiểm soát nội bộ và kiểm toán nội bộ của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài."
+135/2015/NĐ-CP,Cơ quan quản lý nhà nước tham gia quản lý hoạt động đầu tư gián tiếp ra nước ngoài theo quy định tại Nghị định này,AP_DUNG_CHO,claude_llm,0.85,2. Các cơ quan quản lý nhà nước tham gia quản lý hoạt động đầu tư gián tiếp ra nước ngoài theo quy định tại Nghị định này.
+17/2023/QH15,"Cơ quan, tổ chức, cá nhân có liên quan đến thành lập, tổ chức quản lý, tổ chức lại, giải thể, phá sản và hoạt động có liên quan của tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã",AP_DUNG_CHO,claude_llm,0.85,"3. Cơ quan, tổ chức, cá nhân có liên quan đến thành lập, tổ chức quản lý, tổ chức lại, giải thể, phá sản và hoạt động có liên quan của tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã."
+46/2023/NĐ-CP,Doanh nghiệp bảo hiểm nhân thọ,AP_DUNG_CHO,claude_llm,0.85,"Doanh nghiệp bảo hiểm phi nhân thọ, doanh nghiệp bảo hiểm nhân thọ, doanh nghiệp bảo hiểm sức khỏe (sau đây gọi là doanh nghiệp bảo hiểm), doanh nghiệp tái bảo hiểm, đại lý bảo hiểm, doanh nghiệp môi giới bảo hiểm, tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm, tổ chức tương hỗ cung cấp bảo hiểm vi mô."
+17/VBHN-BTC,"Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, chi nhánh, văn phòng đại diện công ty chứng khoán, công ty quản lý quỹ nước ngoài tại Việt Nam, công ty đầu tư chứng khoán",AP_DUNG_CHO,claude_llm,0.85,"g) Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, chi nhánh, văn phòng đại diện công ty chứng khoán, công ty quản lý quỹ nước ngoài tại Việt Nam, công ty đầu tư chứng khoán;"
+105/2016/TT-BTC,Công ty đầu tư chứng khoán,AP_DUNG_CHO,claude_llm,0.85,"Thông tư này áp dụng đối với tổ chức kinh doanh chứng khoán, quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán, doanh nghiệp kinh doanh bảo hiểm và các cơ quan, tổ chức, cá nhân có liên quan đến hoạt động đầu tư gián tiếp ra nước ngoài."
+46/2023/NĐ-CP,Bên mua bảo hiểm,AP_DUNG_CHO,claude_llm,0.85,"3. Bên mua bảo hiểm, người được bảo hiểm, người thụ hưởng"
+66/2020/TT-BTC,Doanh nghiệp quy định tại khoản 1 Điều 10 Nghị định số 05/2019/NĐ-CP,AP_DUNG_CHO,claude_llm,0.85,Thông tư này áp dụng đối với các doanh nghiệp quy định tại khoản 1 Điều 10 Nghị định số 05/2019/NĐ-CP ngày 22 tháng 01 năm 2019 của Chính phủ về kiếm toán nội bộ.
+105/2016/TT-BTC,Doanh nghiệp kinh doanh bảo hiểm,AP_DUNG_CHO,claude_llm,0.85,"Thông tư này áp dụng đối với tổ chức kinh doanh chứng khoán, quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán, doanh nghiệp kinh doanh bảo hiểm và các cơ quan, tổ chức, cá nhân có liên quan đến hoạt động đầu tư gián tiếp ra nước ngoài."
+46/2023/NĐ-CP,Đại lý bảo hiểm,AP_DUNG_CHO,claude_llm,0.85,"Doanh nghiệp bảo hiểm phi nhân thọ, doanh nghiệp bảo hiểm nhân thọ, doanh nghiệp bảo hiểm sức khỏe (sau đây gọi là doanh nghiệp bảo hiểm), doanh nghiệp tái bảo hiểm, đại lý bảo hiểm, doanh nghiệp môi giới bảo hiểm, tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm, tổ chức tương hỗ cung cấp bảo hiểm vi mô."
+27/2024/TT-NHNN,"Tổ chức, cá nhân có liên quan đến phạm vi điều chỉnh quy định tại Điều 1 Thông tư này",AP_DUNG_CHO,claude_llm,0.85,"3. Tổ chức, cá nhân có liên quan đến phạm vi điều chỉnh quy định tại Điều 1 Thông tư này."
+73/2016/NĐ-CP,Doanh nghiệp môi giới bảo hiểm,AP_DUNG_CHO,claude_llm,0.85,"Doanh nghiệp bảo hiểm phi nhân thọ, doanh nghiệp bảo hiểm nhân thọ, doanh nghiệp bảo hiểm sức khỏe (sau đây gọi là doanh nghiệp bảo hiểm), doanh nghiệp tái bảo hiểm, đại lý bảo hiểm, doanh nghiệp môi giới bảo hiểm, tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm, tổ chức tương hỗ cung cấp bảo hiểm vi mô."
+62/2024/TT-NHNN,"Tổ chức, cá nhân có liên quan đến việc tổ chức lại tổ chức tín dụng",AP_DUNG_CHO,claude_llm,0.85,"2. Tổ chức, cá nhân có liên quan đến việc tổ chức lại tổ chức tín dụng."
+202/2012/TT-BTC,"Tổ chức, cá nhân có liên quan đến việc đăng ký, quản lý và công khai danh sách kiểm toán viên hành nghề kiểm toán",AP_DUNG_CHO,claude_llm,0.85,"3. Tổ chức, cá nhân có liên quan đến việc đăng ký, quản lý và công khai danh sách kiểm toán viên hành nghề kiểm toán."
+52/VBHN-NHNN,"Tổ chức, cá nhân có liên quan đến hồ sơ, thủ tục cấp Giấy phép lần đầu của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài và văn phòng đại diện nước ngoài",AP_DUNG_CHO,claude_llm,0.85,"4. Các tổ chức, cá nhân có liên quan đến hồ sơ, thủ tục cấp Giấy phép lần đầu của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài và văn phòng đại diện nước ngoài."
+56/2024/TT-NHNN,"Tổ chức, cá nhân có liên quan đến hồ sơ, thủ tục cấp Giấy phép lần đầu của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài và văn phòng đại diện nước ngoài",AP_DUNG_CHO,claude_llm,0.85,"4. Các tổ chức, cá nhân có liên quan đến hồ sơ, thủ tục cấp Giấy phép lần đầu của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài và văn phòng đại diện nước ngoài."
+105/2016/TT-BTC,Quỹ đầu tư chứng khoán,AP_DUNG_CHO,claude_llm,0.85,"Thông tư này áp dụng đối với tổ chức kinh doanh chứng khoán, quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán, doanh nghiệp kinh doanh bảo hiểm và các cơ quan, tổ chức, cá nhân có liên quan đến hoạt động đầu tư gián tiếp ra nước ngoài."
+17/VBHN-BTC,"Ngân hàng thương mại, chi nhánh ngân hàng nước ngoài tại Việt Nam thực hiện hoạt động lưu ký, bù trừ, thanh toán giao dịch chứng khoán, ngân hàng giám sát",AP_DUNG_CHO,claude_llm,0.85,"k) Ngân hàng thương mại, chi nhánh ngân hàng nước ngoài tại Việt Nam thực hiện hoạt động lưu ký, bù trừ, thanh toán giao dịch chứng khoán, ngân hàng giám sát;"
+46/2023/NĐ-CP,Người thụ hưởng,AP_DUNG_CHO,claude_llm,0.85,"3. Bên mua bảo hiểm, người được bảo hiểm, người thụ hưởng"
+17/VBHN-BTC,Tổ chức khác hoạt động trên thị trường chứng khoán hoặc có liên quan đến hoạt động về chứng khoán và thị trường chứng khoán,AP_DUNG_CHO,claude_llm,0.85,m) Các tổ chức khác hoạt động trên thị trường chứng khoán hoặc có liên quan đến hoạt động về chứng khoán và thị trường chứng khoán.
+46/2023/NĐ-CP,"Tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm",AP_DUNG_CHO,claude_llm,0.85,"Doanh nghiệp bảo hiểm phi nhân thọ, doanh nghiệp bảo hiểm nhân thọ, doanh nghiệp bảo hiểm sức khỏe (sau đây gọi là doanh nghiệp bảo hiểm), doanh nghiệp tái bảo hiểm, đại lý bảo hiểm, doanh nghiệp môi giới bảo hiểm, tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm, tổ chức tương hỗ cung cấp bảo hiểm vi mô."
+17/VBHN-BTC,"Tổ chức, cá nhân Việt Nam và tổ chức, cá nhân nước ngoài",AP_DUNG_CHO,claude_llm,0.85,"Tổ chức, cá nhân Việt Nam và tổ chức, cá nhân nước ngoài (sau đây gọi chung là Tổ chức, cá nhân) thực hiện hành vi vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán quy định tại Nghị định này."
+44/2011/TT-NHNN,"Tổ chức, cá nhân có liên quan đến hệ thống kiểm soát nội bộ và kiểm toán nội bộ của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài",AP_DUNG_CHO,claude_llm,0.85,"3. Tổ chức, cá nhân có liên quan đến hệ thống kiểm soát nội bộ và kiểm toán nội bộ của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài."
+62/2025/TT-NHNN,"Tổ chức, cá nhân có liên quan đến hệ thống kiểm soát nội bộ của tổ chức tín dụng",AP_DUNG_CHO,claude_llm,0.85,"3. Tổ chức, cá nhân có liên quan đến hệ thống kiểm soát nội bộ của tổ chức tín dụng."
+46/2023/NĐ-CP,Người được bảo hiểm,AP_DUNG_CHO,claude_llm,0.85,"3. Bên mua bảo hiểm, người được bảo hiểm, người thụ hưởng"
+01/2014/TT-NHNN,Ngân hàng Nhà nước Việt Nam,AP_DUNG_CHO,claude_llm,0.85,1. Ngân hàng Nhà nước Việt Nam (sau đây gọi tắt là Ngân hàng Nhà nước).
+01/2014/TT-NHNN,"Khách hàng trong quan hệ giao dịch tiền mặt, tài sản quý, giấy tờ có giá với Ngân hàng Nhà nước, tổ chức tín dụng, chi nhánh ngân hàng nước ngoài",AP_DUNG_CHO,claude_llm,0.85,"3. Khách hàng trong quan hệ giao dịch tiền mặt, tài sản quý, giấy tờ có giá với Ngân hàng Nhà nước, tổ chức tín dụng, chi nhánh ngân hàng nước ngoài."
+46/2023/NĐ-CP,Doanh nghiệp môi giới bảo hiểm,AP_DUNG_CHO,claude_llm,0.85,"Doanh nghiệp bảo hiểm phi nhân thọ, doanh nghiệp bảo hiểm nhân thọ, doanh nghiệp bảo hiểm sức khỏe (sau đây gọi là doanh nghiệp bảo hiểm), doanh nghiệp tái bảo hiểm, đại lý bảo hiểm, doanh nghiệp môi giới bảo hiểm, tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm, tổ chức tương hỗ cung cấp bảo hiểm vi mô."
+46/2023/NĐ-CP,Doanh nghiệp bảo hiểm phi nhân thọ,AP_DUNG_CHO,claude_llm,0.85,"Doanh nghiệp bảo hiểm phi nhân thọ, doanh nghiệp bảo hiểm nhân thọ, doanh nghiệp bảo hiểm sức khỏe (sau đây gọi là doanh nghiệp bảo hiểm), doanh nghiệp tái bảo hiểm, đại lý bảo hiểm, doanh nghiệp môi giới bảo hiểm, tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm, tổ chức tương hỗ cung cấp bảo hiểm vi mô."
+46/2023/NĐ-CP,Doanh nghiệp bảo hiểm sức khỏe,AP_DUNG_CHO,claude_llm,0.85,"Doanh nghiệp bảo hiểm phi nhân thọ, doanh nghiệp bảo hiểm nhân thọ, doanh nghiệp bảo hiểm sức khỏe (sau đây gọi là doanh nghiệp bảo hiểm), doanh nghiệp tái bảo hiểm, đại lý bảo hiểm, doanh nghiệp môi giới bảo hiểm, tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm, tổ chức tương hỗ cung cấp bảo hiểm vi mô."
+46/2023/NĐ-CP,Doanh nghiệp tái bảo hiểm,AP_DUNG_CHO,claude_llm,0.85,"Doanh nghiệp bảo hiểm phi nhân thọ, doanh nghiệp bảo hiểm nhân thọ, doanh nghiệp bảo hiểm sức khỏe (sau đây gọi là doanh nghiệp bảo hiểm), doanh nghiệp tái bảo hiểm, đại lý bảo hiểm, doanh nghiệp môi giới bảo hiểm, tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm, tổ chức tương hỗ cung cấp bảo hiểm vi mô."
+17/VBHN-BTC,"Doanh nghiệp nhà nước, công ty trách nhiệm hữu hạn một thành viên do doanh nghiệp nhà nước nắm giữ 100% vốn điều lệ, đơn vị sự nghiệp công lập cổ phần hóa dưới hình thức chào bán chứng khoán ra công chúng",AP_DUNG_CHO,claude_llm,0.85,"b) Doanh nghiệp nhà nước, công ty trách nhiệm hữu hạn một thành viên do doanh nghiệp nhà nước nắm giữ 100% vốn điều lệ, đơn vị sự nghiệp công lập cổ phần hóa dưới hình thức chào bán chứng khoán ra công chúng;"
+41/2016/TT-NHNN,Ngân hàng thương mại cổ phần,AP_DUNG_CHO,claude_llm,0.85,"a) Ngân hàng: Ngân hàng thương mại nhà nước, ngân hàng thương mại cổ phần, ngân hàng liên doanh, ngân hàng 100% vốn nước ngoài;"
+41/2016/TT-NHNN,Ngân hàng liên doanh,AP_DUNG_CHO,claude_llm,0.85,"a) Ngân hàng: Ngân hàng thương mại nhà nước, ngân hàng thương mại cổ phần, ngân hàng liên doanh, ngân hàng 100% vốn nước ngoài;"
+41/2016/TT-NHNN,Ngân hàng thương mại nhà nước,AP_DUNG_CHO,claude_llm,0.85,"a) Ngân hàng: Ngân hàng thương mại nhà nước, ngân hàng thương mại cổ phần, ngân hàng liên doanh, ngân hàng 100% vốn nước ngoài;"
+41/2016/TT-NHNN,Ngân hàng 100% vốn nước ngoài,AP_DUNG_CHO,claude_llm,0.85,"a) Ngân hàng: Ngân hàng thương mại nhà nước, ngân hàng thương mại cổ phần, ngân hàng liên doanh, ngân hàng 100% vốn nước ngoài;"
+32/2024/QH15,"Tổ chức mà Nhà nước sở hữu 100% vốn điều lệ có chức năng mua, bán, xử lý nợ",AP_DUNG_CHO,claude_llm,0.85,"Tổ chức mà Nhà nước sở hữu 100% vốn điều lệ có chức năng mua, bán, xử lý nợ (sau đây gọi là tổ chức mua bán, xử lý nợ)."
+105/2016/TT-BTC,Tổ chức kinh doanh chứng khoán,AP_DUNG_CHO,claude_llm,0.85,"Thông tư này áp dụng đối với tổ chức kinh doanh chứng khoán, quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán, doanh nghiệp kinh doanh bảo hiểm và các cơ quan, tổ chức, cá nhân có liên quan đến hoạt động đầu tư gián tiếp ra nước ngoài."
+62/2024/TT-NHNN,Tổ chức tín dụng phi ngân hàng bao gồm công ty tài chính tổng hợp và công ty tài chính chuyên ngành,AP_DUNG_CHO,claude_llm,0.85,b) Tổ chức tín dụng phi ngân hàng bao gồm công ty tài chính tổng hợp và công ty tài chính chuyên ngành.
+46/2023/NĐ-CP,Tổ chức tương hỗ cung cấp bảo hiểm vi mô,AP_DUNG_CHO,claude_llm,0.85,"Doanh nghiệp bảo hiểm phi nhân thọ, doanh nghiệp bảo hiểm nhân thọ, doanh nghiệp bảo hiểm sức khỏe (sau đây gọi là doanh nghiệp bảo hiểm), doanh nghiệp tái bảo hiểm, đại lý bảo hiểm, doanh nghiệp môi giới bảo hiểm, tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm, tổ chức tương hỗ cung cấp bảo hiểm vi mô."
+73/2016/NĐ-CP,"Tổ chức, cá nhân khác có liên quan",AP_DUNG_CHO,claude_llm,0.85,"d) Các tổ chức, cá nhân khác có liên quan."
+135/2015/NĐ-CP,"Tổ chức, cá nhân khác có liên quan đến hoạt động đầu tư gián tiếp ra nước ngoài",AP_DUNG_CHO,claude_llm,0.85,"3. Các tổ chức, cá nhân khác có liên quan đến hoạt động đầu tư gián tiếp ra nước ngoài."
+73/2016/NĐ-CP,Đại lý bảo hiểm,AP_DUNG_CHO,claude_llm,0.85,"Doanh nghiệp bảo hiểm phi nhân thọ, doanh nghiệp bảo hiểm nhân thọ, doanh nghiệp bảo hiểm sức khỏe (sau đây gọi là doanh nghiệp bảo hiểm), doanh nghiệp tái bảo hiểm, đại lý bảo hiểm, doanh nghiệp môi giới bảo hiểm, tổ chức, cá nhân cung cấp dịch vụ phụ trợ bảo hiểm, tổ chức tương hỗ cung cấp bảo hiểm vi mô."
+57/2024/TT-NHNN,"Tổ chức, cá nhân có liên quan đến việc cấp Giấy phép lần đầu của tổ chức tín dụng phi ngân hàng",AP_DUNG_CHO,claude_llm,0.85,"3. Các tổ chức, cá nhân có liên quan đến việc cấp Giấy phép lần đầu của tổ chức tín dụng phi ngân hàng."
+29/2024/TT-NHNN,"Tổ chức, cá nhân có liên quan đến quản trị, điều hành, tổ chức và hoạt động của quỹ tín dụng nhân dân",AP_DUNG_CHO,claude_llm,0.85,"3. Tổ chức, cá nhân có liên quan đến quản trị, điều hành, tổ chức và hoạt động của quỹ tín dụng nhân dân."
+37/2014/TT-NHNN,"Tổ chức, cá nhân khác có liên quan đến công việc thiết kế mẫu tiền, chế tạo bản in, khuôn đúc và in, đúc tiền",AP_DUNG_CHO,claude_llm,0.85,"3. Tổ chức, cá nhân khác có liên quan đến công việc thiết kế mẫu tiền, chế tạo bản in, khuôn đúc và in, đúc tiền."
+32/2024/QH15,"Văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng",AP_DUNG_CHO,claude_llm,0.85,"Văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng (sau đây gọi là văn phòng đại diện nước ngoài)."
+52/VBHN-NHNN,"Văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng",AP_DUNG_CHO,claude_llm,0.85,"Văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng (sau đây gọi là văn phòng đại diện nước ngoài)."
+05/2019/NĐ-CP,"Tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán nội bộ",AP_DUNG_CHO,claude_llm,0.85,"đ) Các tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán nội bộ."
+56/2024/TT-NHNN,"Văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng",AP_DUNG_CHO,claude_llm,0.85,"Văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng (sau đây gọi là văn phòng đại diện nước ngoài)."
+01/2025/TT-NHNN,"Tổ chức, cá nhân có liên quan đến việc cấp Giấy phép lần đầu, cấp đổi Giấy phép của quỹ tín dụng nhân dân, cấp bản sao Giấy phép từ sổ gốc",AP_DUNG_CHO,claude_llm,0.85,"2. Tổ chức, cá nhân có liên quan đến việc cấp Giấy phép lần đầu, cấp đổi Giấy phép của quỹ tín dụng nhân dân, cấp bản sao Giấy phép từ sổ gốc."
+46/2023/NĐ-CP,Chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài,AP_DUNG_CHO,claude_llm,0.8,"Chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài, chi nhánh doanh nghiệp tái bảo hiểm nước ngoài (sau đây gọi là chi nhánh nước ngoài tại Việt Nam); Văn phòng đại diện của doanh nghiệp bảo hiểm nước ngoài, doanh nghiệp tái bảo hiểm nước ngoài, doanh nghiệp môi giới bảo hiểm nước ngoài, tập đoàn tài chính, bảo hiểm nước ngoài tại Việt Nam (sau đây gọi là văn phòng đại diện nước ngoài tại Việ"
+46/2023/NĐ-CP,Chi nhánh doanh nghiệp tái bảo hiểm nước ngoài,AP_DUNG_CHO,claude_llm,0.8,"Chi nhánh doanh nghiệp bảo hiểm phi nhân thọ nước ngoài, chi nhánh doanh nghiệp tái bảo hiểm nước ngoài (sau đây gọi là chi nhánh nước ngoài tại Việt Nam); Văn phòng đại diện của doanh nghiệp bảo hiểm nước ngoài, doanh nghiệp tái bảo hiểm nước ngoài, doanh nghiệp môi giới bảo hiểm nước ngoài, tập đoàn tài chính, bảo hiểm nước ngoài tại Việt Nam (sau đây gọi là văn phòng đại diện nước ngoài tại Việ"
+67/2011/QH12,doanh nghiệp kiểm toán,AP_DUNG_CHO,claude_llm,0.8,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+67/2011/QH12,"tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập",AP_DUNG_CHO,claude_llm,0.8,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+67/2011/QH12,tổ chức nghề nghiệp về kiểm toán,AP_DUNG_CHO,claude_llm,0.8,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+135/2015/NĐ-CP,Tổ chức kinh tế có vốn đầu tư nước ngoài (thuộc đối tượng quy định tại Khoản 1 Điều 23 Luật Đầu tư),AP_DUNG_CHO,claude_llm,0.8,4. Tổ chức kinh tế có vốn đầu tư nước ngoài (thuộc đối tượng quy định tại Khoản 1 Điều 23 Luật Đầu tư) không được thực hiện đầu tư gián tiếp ra nước ngoài theo quy định tại Nghị định này.
+105/2016/TT-BTC,"Cơ quan, tổ chức, cá nhân có liên quan đến hoạt động đầu tư gián tiếp ra nước ngoài",AP_DUNG_CHO,claude_llm,0.8,"Thông tư này áp dụng đối với tổ chức kinh doanh chứng khoán, quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán, doanh nghiệp kinh doanh bảo hiểm và các cơ quan, tổ chức, cá nhân có liên quan đến hoạt động đầu tư gián tiếp ra nước ngoài."
+32/2024/QH15,"Cơ quan, tổ chức, cá nhân có liên quan đến việc thành lập, tổ chức, hoạt động, can thiệp sớm, kiểm soát đặc biệt, tổ chức lại, giải thể, phá sản tổ chức tín dụng",AP_DUNG_CHO,claude_llm,0.8,"5. Cơ quan, tổ chức, cá nhân có liên quan đến việc thành lập, tổ chức, hoạt động, can thiệp sớm, kiểm soát đặc biệt, tổ chức lại, giải thể, phá sản tổ chức tín dụng;"
+08/2021/TT-BTC,"Doanh nghiệp, cơ quan nhà nước, đơn vị sự nghiệp công lập quy định tại Điều 8, Điều 9, Điều 10 Nghị định số 05/2019/NĐ-CP",AP_DUNG_CHO,claude_llm,0.8,"Chuẩn mực kiểm toán nội bộ Việt Nam và các nguyên tắc đạo đức nghề nghiệp kiểm toán nội bộ áp dụng đối với các doanh nghiệp, cơ quan nhà nước, đơn vị sự nghiệp công lập quy định tại Điều 8, Điều 9, Điều 10 Nghị định số 05/2019/NĐ-CP ngày 22 tháng 01 năm 2019 của Chính phủ về kiểm toán nội bộ và các tổ chức cá nhân có liên quan trong hoạt động kiểm toán nội bộ của các đơn vị này."
+46/2023/NĐ-CP,"Văn phòng đại diện của doanh nghiệp bảo hiểm nước ngoài, doanh nghiệp tái bảo hiểm nước ngoài, doanh nghiệp môi giới bảo hiểm nước ngoài, tập đoàn tài chính, bảo hiểm nước ngoài tại Việt Nam",AP_DUNG_CHO,claude_llm,0.8,"Văn phòng đại diện của doanh nghiệp bảo hiểm nước ngoài, doanh nghiệp tái bảo hiểm nước ngoài, doanh nghiệp môi giới bảo hiểm nước ngoài, tập đoàn tài chính, bảo hiểm nước ngoài tại Việt Nam (sau đây gọi là văn phòng đại diện nước ngoài tại Việt Nam)."
+67/2011/QH12,đơn vị được kiểm toán,AP_DUNG_CHO,claude_llm,0.8,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+67/2011/QH12,chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam,AP_DUNG_CHO,claude_llm,0.8,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+67/2011/QH12,kiểm toán viên,AP_DUNG_CHO,claude_llm,0.8,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+67/2011/QH12,kiểm toán viên hành nghề,AP_DUNG_CHO,claude_llm,0.8,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+08/2021/TT-BTC,Tổ chức cá nhân có liên quan trong hoạt động kiểm toán nội bộ của các đơn vị này,AP_DUNG_CHO,claude_llm,0.75,"Chuẩn mực kiểm toán nội bộ Việt Nam và các nguyên tắc đạo đức nghề nghiệp kiểm toán nội bộ áp dụng đối với các doanh nghiệp, cơ quan nhà nước, đơn vị sự nghiệp công lập quy định tại Điều 8, Điều 9, Điều 10 Nghị định số 05/2019/NĐ-CP ngày 22 tháng 01 năm 2019 của Chính phủ về kiểm toán nội bộ và các tổ chức cá nhân có liên quan trong hoạt động kiểm toán nội bộ của các đơn vị này."
+66/2020/TT-BTC,Doanh nghiệp không thuộc quy định tại khoản 1 Điều này,AP_DUNG_CHO,claude_llm,0.6,Các doanh nghiệp không thuộc quy định tại khoản 1 Điều này được khuyến khích xây dựng Quy chế kiểm toán nội bộ trên cơ sở tham chiếu mẫu Quy chế kiểm toán nội bộ ban hành kèm theo Thông tư này.
+17/2023/QH15,Hợp tác xã,THUOC_LINH_VUC,claude_llm,0.6,"LUẬT
+HỢP TÁC XÃ"
+46/2010/QH12,Tổ chức và hoạt động Ngân hàng Nhà nước,THUOC_LINH_VUC,claude_llm,0.5,"LUẬT
+Ngân hàng Nhà nước Việt Nam"

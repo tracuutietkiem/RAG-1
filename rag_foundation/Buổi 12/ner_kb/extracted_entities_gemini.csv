@@ -1,0 +1,101 @@
+﻿entity,entity_type,source_doc_id,source,method,confidence,evidence
+Quốc hội,CoQuan,166170,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Quốc hội'
+Vương Đình Huệ,NguoiKy,166170,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Vương Đình Huệ'
+Tín dụng,LinhVuc,166170,metadata,metadata_original,1.0,metadata.csv: linh_vuc = 'Tín dụng'
+Tổ chức tín dụng,DoiTuongApDung,166170,content_clean,gemini,0.95,1. Tổ chức tín dụng.
+Chi nhánh ngân hàng nước ngoài,DoiTuongApDung,166170,content_clean,gemini,0.95,2. Chi nhánh ngân hàng nước ngoài.
+"Văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng",DoiTuongApDung,166170,content_clean,gemini,0.95,"3. Văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng (sau đây gọi là văn phòng đại diện nước ngoài)."
+"Tổ chức mà Nhà nước sở hữu 100% vốn điều lệ có chức năng mua, bán, xử lý nợ",DoiTuongApDung,166170,content_clean,gemini,0.95,"4. Tổ chức mà Nhà nước sở hữu 100% vốn điều lệ có chức năng mua, bán, xử lý nợ (sau đây gọi là tổ chức mua bán, xử lý nợ)."
+"Cơ quan, tổ chức, cá nhân có liên quan đến việc thành lập, tổ chức, hoạt động, can thiệp sớm, kiểm soát đặc biệt, tổ chức lại, giải thể, phá sản tổ chức tín dụng; việc thành lập, tổ chức, hoạt động, can thiệp sớm, giải thể, chấm dứt hoạt động của chi nhánh ngân hàng nước ngoài; việc thành lập, hoạt động của văn phòng đại diện nước ngoài; việc xử lý nợ xấu, tài sản bảo đảm của khoản nợ xấu của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài, tổ chức mua bán, xử lý nợ",DoiTuongApDung,166170,content_clean,gemini,0.95,"5. Cơ quan, tổ chức, cá nhân có liên quan đến việc thành lập, tổ chức, hoạt động, can thiệp sớm, kiểm soát đặc biệt, tổ chức lại, giải thể, phá sản tổ chức tín dụng; việc thành lập, tổ chức, hoạt động, can thiệp sớm, giải thể, chấm dứt hoạt động của chi nhánh ngân hàng nước ngoài; việc thành lập, hoạt động của văn phòng đại diện nước ngoài; việc xử lý nợ xấu, tài sản bảo đảm của khoản nợ xấu của t"
+Chính phủ,CoQuan,112025,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Chính phủ'
+Nguyễn Xuân Phúc,NguoiKy,112025,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Xuân Phúc'
+Doanh nghiệp bảo hiểm,DoiTuongApDung,112025,content_clean,gemini,0.95,a) Doanh nghiệp bảo hiểm;
+Chi nhánh nước ngoài,DoiTuongApDung,112025,content_clean,gemini,0.95,b) Chi nhánh nước ngoài;
+Doanh nghiệp môi giới bảo hiểm,DoiTuongApDung,112025,content_clean,gemini,0.95,"c) Doanh nghiệp môi giới bảo hiểm, đại lý bảo hiểm;"
+Đại lý bảo hiểm,DoiTuongApDung,112025,content_clean,gemini,0.95,"c) Doanh nghiệp môi giới bảo hiểm, đại lý bảo hiểm;"
+"Các tổ chức, cá nhân khác có liên quan",DoiTuongApDung,112025,content_clean,gemini,0.95,"d) Các tổ chức, cá nhân khác có liên quan."
+Bảo hiểm,LinhVuc,112025,content_clean,gemini,0.95,"QUY ĐỊNH CHI TIẾT THI HÀNH LUẬT KINH DOANH BẢO HIỂM VÀ LUẬT SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA LUẬT KINH DOANH BẢO HIỂM"
+Ngân hàng Nhà nước Việt Nam,CoQuan,38128,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đào Minh Tú,NguoiKy,38128,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đào Minh Tú'
+Phát hành và kho quỹ,LinhVuc,38128,metadata,metadata_original,1.0,metadata.csv: linh_vuc = 'Phát hành và kho quỹ'
+Các đơn vị có liên quan thuộc Ngân hàng Nhà nước,DoiTuongApDung,38128,content_clean,gemini,0.95,1. Các đơn vị có liên quan thuộc Ngân hàng Nhà nước.
+Nhà máy in tiền Quốc gia,DoiTuongApDung,38128,content_clean,gemini,0.95,2. Nhà máy in tiền Quốc gia.
+"Tổ chức, cá nhân khác có liên quan đến công việc thiết kế mẫu tiền, chế tạo bản in, khuôn đúc và in, đúc tiền",DoiTuongApDung,38128,content_clean,gemini,0.95,"3. Tổ chức, cá nhân khác có liên quan đến công việc thiết kế mẫu tiền, chế tạo bản in, khuôn đúc và in, đúc tiền."
+Quốc hội,CoQuan,26750,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Quốc hội'
+Nguyễn Phú Trọng,NguoiKy,26750,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Phú Trọng'
+kiểm toán viên,DoiTuongApDung,26750,content_clean,gemini,0.95,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+kiểm toán viên hành nghề,DoiTuongApDung,26750,content_clean,gemini,0.95,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+doanh nghiệp kiểm toán,DoiTuongApDung,26750,content_clean,gemini,0.95,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam,DoiTuongApDung,26750,content_clean,gemini,0.95,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+đơn vị được kiểm toán,DoiTuongApDung,26750,content_clean,gemini,0.95,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+tổ chức nghề nghiệp về kiểm toán,DoiTuongApDung,26750,content_clean,gemini,0.95,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+"tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập",DoiTuongApDung,26750,content_clean,gemini,0.95,"Luật này áp dụng đối với kiểm toán viên, kiểm toán viên hành nghề, doanh nghiệp kiểm toán, chi nhánh doanh nghiệp kiểm toán nước ngoài tại Việt Nam, đơn vị được kiểm toán, tổ chức nghề nghiệp về kiểm toán và tổ chức, cá nhân khác có liên quan đến hoạt động kiểm toán độc lập."
+Kiểm toán,LinhVuc,26750,content_clean,gemini,0.95,Quốc hội ban hành Luật Kiểm toán độc lập
+Chính phủ,CoQuan,163441,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Chính phủ'
+Lê Minh Khái,NguoiKy,163441,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Lê Minh Khái'
+Bảo hiểm,LinhVuc,163441,metadata,metadata_original,1.0,metadata.csv: linh_vuc = 'Bảo hiểm'
+Chính phủ,CoQuan,146468,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Chính phủ'
+Nguyễn Xuân Phúc,NguoiKy,146468,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Xuân Phúc'
+Chứng khoán,LinhVuc,146468,metadata,metadata_original,1.0,metadata.csv: linh_vuc = 'Chứng khoán'
+Ngân hàng Nhà nước Việt Nam,CoQuan,168220,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đào Minh Tú,NguoiKy,168220,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đào Minh Tú'
+"Thanh tra, giám sát ngân hàng",LinhVuc,168220,metadata,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+Chính phủ,CoQuan,133858,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Chính phủ'
+Nguyễn Xuân Phúc,NguoiKy,133858,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Xuân Phúc'
+Ngân hàng Nhà nước Việt Nam,CoQuan,169221,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Phạm Thanh Hà,NguoiKy,169221,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Phạm Thanh Hà'
+Quản lý ngoại hối,LinhVuc,169221,metadata,metadata_original,1.0,metadata.csv: linh_vuc = 'Quản lý ngoại hối'
+Chính phủ,CoQuan,95652,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Chính phủ'
+Nguyễn Tấn Dũng,NguoiKy,95652,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Tấn Dũng'
+Bộ Tài chính,CoQuan,f69936f0-6937-11f1-a48d-29bc6b0fd706,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Bộ Tài chính'
+Nguyễn Đức Chi,NguoiKy,f69936f0-6937-11f1-a48d-29bc6b0fd706,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Đức Chi'
+Bộ Tài chính,CoQuan,30402,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Bộ Tài chính'
+Trần Xuân Hà,NguoiKy,30402,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Trần Xuân Hà'
+Quản lý dịch vụ tài chính và các quỹ tài chính,LinhVuc,30402,metadata,metadata_original,1.0,metadata.csv: linh_vuc = 'Quản lý dịch vụ tài chính và các quỹ tài chính'
+Ngân hàng Nhà nước Việt Nam,CoQuan,173460,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đoàn Thái Sơn,NguoiKy,173460,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+"Thanh tra, giám sát ngân hàng",LinhVuc,173460,metadata,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+Ngân hàng Nhà nước Việt Nam,CoQuan,27257,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Trần Minh Tuấn,NguoiKy,27257,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Trần Minh Tuấn'
+Bộ Tài chính,CoQuan,143217,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Bộ Tài chính'
+Ngân hàng Nhà nước Việt Nam,CoQuan,168859,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đào Minh Tú,NguoiKy,168859,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đào Minh Tú'
+"Thanh tra, giám sát ngân hàng",LinhVuc,168859,metadata,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+Bộ Tài chính,CoQuan,150974,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Bộ Tài chính'
+Tạ Anh Tuấn,NguoiKy,150974,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Tạ Anh Tuấn'
+"Kế toán, kiểm toán",LinhVuc,150974,metadata,metadata_original,1.0,"metadata.csv: linh_vuc = 'Kế toán, kiểm toán'"
+Ngân hàng Nhà nước Việt Nam,CoQuan,164719,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đoàn Thái Sơn,NguoiKy,164719,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+"Thanh tra, giám sát ngân hàng",LinhVuc,164719,metadata,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+Ngân hàng Nhà nước Việt Nam,CoQuan,173695,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đoàn Thái Sơn,NguoiKy,173695,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+"Thanh tra, giám sát ngân hàng",LinhVuc,173695,metadata,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+Ngân hàng Nhà nước Việt Nam,CoQuan,186482,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đoàn Thái Sơn,NguoiKy,186482,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+Cục An toàn hệ thống các tổ chức tín dụng,LinhVuc,186482,metadata,metadata_original,1.0,metadata.csv: linh_vuc = 'Cục An toàn hệ thống các tổ chức tín dụng'
+Bộ Tài chính,CoQuan,112924,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Bộ Tài chính'
+Trần Xuân Hà,NguoiKy,112924,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Trần Xuân Hà'
+Ngân hàng Nhà nước Việt Nam,CoQuan,174218,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đoàn Thái Sơn,NguoiKy,174218,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+"Thanh tra, giám sát ngân hàng",LinhVuc,174218,metadata,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+Ngân hàng Nhà nước Việt Nam,CoQuan,186888,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đoàn Thái Sơn,NguoiKy,186888,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+Cục An toàn hệ thống các tổ chức tín dụng,LinhVuc,186888,metadata,metadata_original,1.0,metadata.csv: linh_vuc = 'Cục An toàn hệ thống các tổ chức tín dụng'
+Ngân hàng Nhà nước Việt Nam,CoQuan,6e689cd0-6f81-11f1-94d6-fd5d6d5ff793,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đoàn Thái Sơn,NguoiKy,6e689cd0-6f81-11f1-94d6-fd5d6d5ff793,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+Ngân hàng Nhà nước Việt Nam,CoQuan,185630,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đoàn Thái Sơn,NguoiKy,185630,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+"Lao động, tiền lương, tiền công",LinhVuc,185630,metadata,metadata_original,1.0,"metadata.csv: linh_vuc = 'Lao động, tiền lương, tiền công'"
+Ngân hàng Nhà nước Việt Nam,CoQuan,117310,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Nguyễn Đồng Tiến,NguoiKy,117310,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Đồng Tiến'
+"Thanh tra, giám sát ngân hàng",LinhVuc,117310,metadata,metadata_original,1.0,"metadata.csv: linh_vuc = 'Thanh tra, giám sát ngân hàng'"
+Quốc hội,CoQuan,166269,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Quốc hội'
+Vương Đình Huệ,NguoiKy,166269,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Vương Đình Huệ'
+Ngân hàng Nhà nước Việt Nam,CoQuan,177271,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đoàn Thái Sơn,NguoiKy,177271,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đoàn Thái Sơn'
+Cục An toàn hệ thống các tổ chức tín dụng,LinhVuc,177271,metadata,metadata_original,1.0,metadata.csv: linh_vuc = 'Cục An toàn hệ thống các tổ chức tín dụng'
+Ngân hàng Nhà nước Việt Nam,CoQuan,44209,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Ngân hàng Nhà nước Việt Nam'
+Đào Minh Tú,NguoiKy,44209,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Đào Minh Tú'
+Phát hành và kho quỹ,LinhVuc,44209,metadata,metadata_original,1.0,metadata.csv: linh_vuc = 'Phát hành và kho quỹ'
+Quốc hội,CoQuan,25692,metadata,metadata_original,1.0,metadata.csv: co_quan_ban_hanh = 'Quốc hội'
+Nguyễn Phú Trọng,NguoiKy,25692,metadata,metadata_original,1.0,metadata.csv: nguoi_ky = 'Nguyễn Phú Trọng'
