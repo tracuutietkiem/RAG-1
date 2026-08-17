@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------------------
+# QUAN TRONG - CACH CAI TORCH (giong Buoi 10/11): cai truoc, ban CPU
+#
+#     pip install torch --index-url https://download.pytorch.org/whl/cpu
+#
+# roi moi:  pip install -r requirements.txt
+# Moi buoi co .venv doc lap nen buoi nay van phai cai lai.
+# ---------------------------------------------------------------------------
+
+# Chuan hoa corpus: parse HTML van ban phap luat
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# BM25 / lexical retrieval (cung phien ban voi Buoi 09)
+rank-bm25==0.2.2
+
+# Dense retrieval + Cross-Encoder reranker.
+# KHONG dat tran <4: tran do ep pip ha cap transformers/huggingface_hub cua may,
+# co the anh huong cac buoi truoc dung chung Python toan cuc (vi du buoi_09).
+sentence-transformers>=3.0
+
+# Fallback offline khi khong tai duoc model tu HuggingFace (backend "lsa")
+scikit-learn>=1.4
+numpy>=1.26
+
+# Mini Knowledge Graph
+neo4j>=5.24,<6
+
+# Buoi 15 - RBAC: loc DataFrame truoc khi tinh BM25/Dense (Access Filtering)
+pandas>=2.0
+
+# Demo
+streamlit>=1.61,<2
+python-dotenv>=1.2,<2
+
+# torch KHONG khai bao o day (xem huong dan dau file).
+# KHONG dung LangChain / LlamaIndex: bai nay xay truc tiep BM25 + Dense + RRF +
+# Rerank de hoc vien nhin ro tung tang, khong can them lop truu tuong.

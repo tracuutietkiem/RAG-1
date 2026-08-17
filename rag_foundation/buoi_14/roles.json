@@ -1,0 +1,55 @@
+{
+  "_comment": "Buổi 15 - Danh sách vai trò (roles) hợp lệ cho RBAC. Đây là nguồn chân lý duy nhất (single source of truth) cho toàn bộ project buoi_14/ — mọi script/app đều đọc từ đây để tránh gõ sai (typo) tên vai trò.",
+  "roles": [
+    {
+      "name": "Admin",
+      "label": "Quản trị viên",
+      "description": "Toàn quyền xem mọi văn bản/điều khoản trong hệ thống, kể cả tài liệu nhạy cảm nhất (nhân sự, rủi ro tín dụng)."
+    },
+    {
+      "name": "HR",
+      "label": "Nhân sự",
+      "description": "Được xem các điều khoản liên quan nhân sự, lương thưởng, bổ nhiệm/miễn nhiệm, kỷ luật cán bộ, quản trị nội bộ; KHÔNG mặc định thấy tài liệu chỉ dành riêng cho Risk_Manager."
+    },
+    {
+      "name": "Risk_Manager",
+      "label": "Quản lý rủi ro tín dụng",
+      "description": "Được xem các điều khoản về cấp tín dụng, hạn mức, phân loại nợ, an toàn vốn, quản trị rủi ro; KHÔNG mặc định thấy tài liệu chỉ dành riêng cho HR."
+    },
+    {
+      "name": "Staff",
+      "label": "Nhân viên nghiệp vụ",
+      "description": "Được xem tài liệu quy định chung và một phần tài liệu nghiệp vụ tín dụng/rủi ro (theo phân loại), KHÔNG xem được tài liệu nhân sự nội bộ."
+    },
+    {
+      "name": "Guest",
+      "label": "Khách / Đối tác ngoài",
+      "description": "Chỉ được xem tài liệu quy định chung, phổ biến, không nhạy cảm."
+    }
+  ],
+  "role_names": ["Admin", "HR", "Risk_Manager", "Staff", "Guest"],
+  "default_role": "Guest",
+  "classification_rules": {
+    "HR": {
+      "allowed_roles": ["Admin", "HR"],
+      "keywords": [
+        "nhân sự", "tiền lương", "lương", "thưởng", "khen thưởng",
+        "tuyển dụng", "bổ nhiệm", "miễn nhiệm", "kỷ luật lao động",
+        "kỷ luật cán bộ", "người quản lý", "hội đồng quản trị",
+        "ban kiểm soát", "tổng giám đốc"
+      ]
+    },
+    "Risk_Manager": {
+      "allowed_roles": ["Admin", "Risk_Manager", "Staff"],
+      "keywords": [
+        "tín dụng", "rủi ro", "hạn mức", "phê duyệt cấp tín dụng",
+        "cấp tín dụng", "nợ xấu", "dự phòng rủi ro", "phân loại nợ",
+        "an toàn vốn", "giới hạn cấp tín dụng", "thu hồi nợ"
+      ]
+    },
+    "GENERAL": {
+      "allowed_roles": ["Admin", "HR", "Risk_Manager", "Staff", "Guest"]
+    },
+    "priority_note": "Một chunk có thể khớp cả từ khóa HR và Risk_Manager. Áp dụng nguyên tắc bảo mật tối đa (most-restrictive-wins): kiểm tra HR trước, nếu không khớp mới kiểm tra Risk_Manager, cuối cùng mới rơi vào GENERAL."
+  }
+}

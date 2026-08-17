@@ -1,0 +1,25 @@
+question_id,question,expected_chunk_id,query_type,note
+Q001,73/2016/NĐ-CP Điều 100 quy định nội dung gì?,112025_D100_168,EXACT_KEYWORD,Sinh tu so_ky_hieu + so dieu that cua chunk; gold = chinh chunk do
+Q002,105/2016/TT-BTC Điều 13 quy định nội dung gì?,112924_D13_037,EXACT_KEYWORD,Sinh tu so_ky_hieu + so dieu that cua chunk; gold = chinh chunk do
+Q003,41/2016/TT-NHNN Điều 10 quy định nội dung gì?,117310_D10_064,EXACT_KEYWORD,Sinh tu so_ky_hieu + so dieu that cua chunk; gold = chinh chunk do
+Q004,05/2019/NĐ-CP Điều 10 quy định nội dung gì?,133858_D10_011,EXACT_KEYWORD,Sinh tu so_ky_hieu + so dieu that cua chunk; gold = chinh chunk do
+Q005,66/2020/TT-BTC Điều 3 quy định nội dung gì?,143217_D3_004,EXACT_KEYWORD,Sinh tu so_ky_hieu + so dieu that cua chunk; gold = chinh chunk do
+Q006,156/2020/NĐ-CP Điều 16 quy định nội dung gì?,146468_D16_052,EXACT_KEYWORD,Sinh tu so_ky_hieu + so dieu that cua chunk; gold = chinh chunk do
+Q007,46/2023/NĐ-CP Điều 101 quy định nội dung gì?,163441_D101_299,EXACT_KEYWORD,Sinh tu so_ky_hieu + so dieu that cua chunk; gold = chinh chunk do
+Q008,32/2024/QH15 Điều 100 quy định nội dung gì?,166170_D100_178,EXACT_KEYWORD,Sinh tu so_ky_hieu + so dieu that cua chunk; gold = chinh chunk do
+Q009,"Quy định về các hành vi bị cấm khi giải thể hợp tác xã, liên hiệp hợp tác xã được nêu ở đâu?",166269_D100_141,SEMANTIC,Sinh tu tieu de Dieu (duy nhat trong corpus); KHONG chua so hieu/so dieu
+Q010,Quy định về thay đổi vốn điều lệ được nêu ở đâu?,168220_D13_014,SEMANTIC,Sinh tu tieu de Dieu (duy nhat trong corpus); KHONG chua so hieu/so dieu
+Q011,Quy định về góp vốn của thành viên được nêu ở đâu?,168859_D10_011,SEMANTIC,Sinh tu tieu de Dieu (duy nhat trong corpus); KHONG chua so hieu/so dieu
+Q012,"Quy định về thay thế, bổ sung và bãi bỏ một số quy định của Thông tư số 01/2014/TT-NHNN được nêu ở đâu?",169221_D2_034,SEMANTIC,Sinh tu tieu de Dieu (duy nhat trong corpus); KHONG chua so hieu/so dieu
+Q013,Quy định về hình thức pháp lý của tổ chức tín dụng phi ngân hàng được nêu ở đâu?,173460_D4_005,SEMANTIC,Sinh tu tieu de Dieu (duy nhat trong corpus); KHONG chua so hieu/so dieu
+Q014,Quy định về hồ sơ đề nghị chấp thuận sáp nhập được nêu ở đâu?,174218_D10_013,SEMANTIC,Sinh tu tieu de Dieu (duy nhat trong corpus); KHONG chua so hieu/so dieu
+Q015,Quy định về nguyên tắc cấp đổi Giấy phép được nêu ở đâu?,177271_D11_033,SEMANTIC,Sinh tu tieu de Dieu (duy nhat trong corpus); KHONG chua so hieu/so dieu
+Q016,Quy định về sửa đổi một số khoản của Điều 14 được nêu ở đâu?,185630_D11_019,SEMANTIC,Sinh tu tieu de Dieu (duy nhat trong corpus); KHONG chua so hieu/so dieu
+Q017,"Theo 69/2025/TT-NHNN, sửa đổi, bổ sung điểm b, c khoản 1 Điều 48 được quy định thế nào?",186482_D10_002,MIXED,Vua co so hieu van ban vua dien dat theo noi dung tieu de Dieu
+Q018,"Theo 62/2025/TT-NHNN, báo cáo Ngân hàng Nhà nước về hệ thống kiểm soát nội bộ được quy định thế nào?",186888_D10_029,MIXED,Vua co so hieu van ban vua dien dat theo noi dung tieu de Dieu
+Q019,"Theo 46/2010/QH12, công cụ thực hiện chính sách tiền tệ quốc gia được quy định thế nào?",25692_D10_036,MIXED,Vua co so hieu van ban vua dien dat theo noi dung tieu de Dieu
+Q020,"Theo 67/2011/QH12, khuyến khích kiểm toán được quy định thế nào?",26750_D10_011,MIXED,Vua co so hieu van ban vua dien dat theo noi dung tieu de Dieu
+Q021,"Theo 44/2011/TT-NHNN, tổ chức của kiểm toán nội bộ được quy định thế nào?",27257_D12_021,MIXED,Vua co so hieu van ban vua dien dat theo noi dung tieu de Dieu
+Q022,"Theo 202/2012/TT-BTC, điều chỉnh Giấy chứng nhận đăng ký hành nghề kiểm toán được quy định thế nào?",30402_D10_011,MIXED,Vua co so hieu van ban vua dien dat theo noi dung tieu de Dieu
+Q023,"Theo 37/2014/TT-NHNN, hồ sơ trình duyệt mẫu in, đúc thử được quy định thế nào?",38128_D10_011,MIXED,Vua co so hieu van ban vua dien dat theo noi dung tieu de Dieu
+Q024,"Theo 01/2014/TT-NHNN, thu, chi tiền mặt với khách hàng được quy định thế nào?",44209_D10_011,MIXED,Vua co so hieu van ban vua dien dat theo noi dung tieu de Dieu

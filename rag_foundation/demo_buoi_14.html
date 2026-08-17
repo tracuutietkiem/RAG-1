@@ -1,0 +1,172 @@
+<!doctype html><html lang='vi'><head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Demo RAG Hybrid Search — Buổi 14</title>
+<style>
+:root{--bg:#fbfaf9;--fg:#1f1d1b;--mut:#6b6560;--line:#e6e1dc;--card:#fff;
+--acc:#8a5a2b;--warn:#8a6d1f;--warnbg:#fdf6e3;--ok:#2f6b4f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:32px 20px 64px}
+h1{font-size:26px;margin:0 0 6px;letter-spacing:-.01em}
+h2{font-size:19px;margin:38px 0 12px;padding-top:22px;border-top:1px solid var(--line)}
+h3{font-size:15px;margin:22px 0 8px;color:var(--mut);font-weight:600;
+text-transform:uppercase;letter-spacing:.06em}
+.sub{color:var(--mut);margin:0 0 22px}
+.note{background:var(--warnbg);border:1px solid #ecdfae;color:var(--warn);
+padding:12px 14px;border-radius:8px;margin:16px 0;font-size:13.5px}
+.pill{display:inline-block;background:#efe9e3;color:#5a5148;border-radius:99px;
+padding:2px 10px;font-size:12px;margin-right:6px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:10px;
+padding:14px 16px;margin:18px 0 10px}
+.q b{font-size:16px}
+table{width:100%;border-collapse:collapse;background:var(--card);
+border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:10px 0 18px;
+font-size:13.5px}
+th{background:#f4f0ec;text-align:left;padding:9px 11px;font-weight:600;
+color:#4a443e;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:9px 11px;border-bottom:1px solid #f0ece8;vertical-align:top}
+tr:last-child td{border-bottom:none}
+code{background:#f1ede9;padding:1px 5px;border-radius:4px;font-size:12.5px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.up{color:var(--ok);font-weight:600}
+.same{color:var(--mut)}
+.snip{color:#57504a;font-size:13px}
+.foot{color:var(--mut);font-size:13px;margin-top:36px;padding-top:16px;
+border-top:1px solid var(--line)}
+</style></head><body><div class='wrap'>
+<h1>RAG Hybrid Search — Buổi 14</h1>
+<p class='sub'>Kết quả chạy thật qua <code>src.pipeline.retrieve()</code> — cùng hàm mà CLI, evaluation và Streamlit đang dùng.</p>
+<p><span class='pill'>2528 chunk</span><span class='pill'>30 văn bản</span><span class='pill'>top_k = 5</span><span class='pill'>candidate_k = 20</span><span class='pill'>RRF_K = 60</span></p>
+<div class='note'><b>Đang chạy ở chế độ FALLBACK.</b><br>Dense: <code>lsa</code> — TF-IDF + TruncatedSVD(dim=256) - FALLBACK, khong phai neural | ly do fallback: ProxyError: 403 Forbidden<br>Rerank: <code>fallback_lexical_overlap</code> — FALLBACK - IDF-weighted token coverage + phrase bonus + document-code/article bonus (KHONG phai neural cross-encoder) | ly do fallback: ProxyError: 403 Forbidden<br>Đây <b>không phải</b> model neural. Trên máy tải được model từ HuggingFace, đặt <code>DENSE_BACKEND=sentence_transformers</code> và <code>RERANKER_BACKEND=cross_encoder</code> trong <code>.env</code> rồi chạy lại.</div>
+<h2>[EXACT_KEYWORD]</h2>
+<div class='q'><b>Thông tư 01/2014/TT-NHNN Điều 72 quy định nội dung gì?</b></div>
+<h3>So sánh Top-1 của 4 cấu hình</h3>
+<table><tr><th>Cấu hình</th><th>Top-1 chunk</th><th>Citation</th></tr>
+<tr><td><code>bm25</code></td><td><code>44209_D72_078</code></td><td>Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyển tiền mặt</td></tr>
+<tr><td><code>dense</code></td><td><code>44209_D43_049</code></td><td>Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyển tiền mặt</td></tr>
+<tr><td><code>hybrid</code></td><td><code>44209_D43_049</code></td><td>Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyển tiền mặt</td></tr>
+<tr><td><code>hybrid_rerank</code></td><td><code>44209_D72_078</code></td><td>Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyển tiền mặt</td></tr>
+</table>
+<h3>Hybrid (RRF) — giữ cả hai tín hiệu</h3>
+<table><tr><th>#</th><th>chunk_id</th><th class='num'>bm25_rank</th><th class='num'>dense_rank</th><th class='num'>rrf_score</th><th>Citation</th></tr>
+<tr><td class='num'>1</td><td><code>44209_D43_049</code></td><td class='num'>3</td><td class='num'>1</td><td class='num'>0.032266</td><td>Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyể</td></tr>
+<tr><td class='num'>2</td><td><code>44209_D72_078</code></td><td class='num'>1</td><td class='num'>3</td><td class='num'>0.032266</td><td>Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyể</td></tr>
+<tr><td class='num'>3</td><td><code>44209_D57_063</code></td><td class='num'>4</td><td class='num'>4</td><td class='num'>0.031250</td><td>Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyể</td></tr>
+<tr><td class='num'>4</td><td><code>44209_D46_052</code></td><td class='num'>11</td><td class='num'>2</td><td class='num'>0.030214</td><td>Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyể</td></tr>
+<tr><td class='num'>5</td><td><code>44209_D69_075</code></td><td class='num'>5</td><td class='num'>10</td><td class='num'>0.029670</td><td>Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyể</td></tr>
+</table>
+<p class='snip'>Dấu — nghĩa là ứng viên chỉ xuất hiện ở một retriever. Hybrid vẫn giữ lại, đó là lý do tồn tại của nó.</p>
+<h3>Before / After Rerank</h3>
+<table><tr><th>#</th><th>BEFORE (Hybrid/RRF)</th><th class='num'>rrf</th><th></th><th>AFTER (Rerank)</th><th class='num'>rerank</th><th>Đổi chỗ</th></tr>
+<tr><td class='num'>1</td><td><code>44209_D43_049</code></td><td class='num'>0.032266</td><td>→</td><td><code>44209_D72_078</code></td><td class='num'>1.152540</td><td><span class='up'>▲ 1</span></td></tr>
+<tr><td class='num'>2</td><td><code>44209_D72_078</code></td><td class='num'>0.032266</td><td>→</td><td><code>44209_D69_075</code></td><td class='num'>0.678381</td><td><span class='up'>▲ 3</span></td></tr>
+<tr><td class='num'>3</td><td><code>44209_D57_063</code></td><td class='num'>0.031250</td><td>→</td><td><code>169221_D1K4_006</code></td><td class='num'>0.678381</td><td><span class='up'>▲ 4</span></td></tr>
+<tr><td class='num'>4</td><td><code>44209_D46_052</code></td><td class='num'>0.030214</td><td>→</td><td><code>44209_D43_049</code></td><td class='num'>0.625219</td><td><span class='same'>▼ 3</span></td></tr>
+<tr><td class='num'>5</td><td><code>44209_D69_075</code></td><td class='num'>0.029670</td><td>→</td><td><code>44209_D70_076</code></td><td class='num'>0.625219</td><td><span class='up'>▲ 6</span></td></tr>
+</table>
+<h3>Top-1 sau rerank — nội dung và citation</h3>
+<table><tr><th>Trường</th><th>Giá trị</th></tr>
+<tr><td><code>rank</code></td><td>1</td></tr>
+<tr><td><code>chunk_id</code></td><td>44209_D72_078</td></tr>
+<tr><td><code>document_id</code></td><td>44209 (01/2014/TT-NHNN)</td></tr>
+<tr><td><code>hybrid_rank</code></td><td>2</td></tr>
+<tr><td><code>hybrid_score</code></td><td>0.03226646</td></tr>
+<tr><td><code>rerank_score</code></td><td>1.15254</td></tr>
+<tr><td><code>citation</code></td><td>Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyển tiền mặt, tài sản quý, giấy tờ có giá | Điều 72 | 44209_D72_078</td></tr>
+<tr><td><code>text</code></td><td class='snip'>Điều 72. Hiệu lực thi hành 1. Thông tư này có hiệu lực thi hành kể từ ngày 20/02/2014. 2. Kể từ ngày Thông tư này có hiệu lực, các văn bản sau hết hiệu lực thi hành: a) Quyết định số 60/2006/QĐ-NHNN ngày 27/12/2006 của Thống đốc Ngân hàng Nhà nước ban hành Chế độ giao nhận, bảo quản, vận chuyển tiền mặt, tài sản quý, giấy tờ có giá; b) Quyết định số 27/2007/QĐ-NHNN ngày 21/6/2007 sửa đổi, bổ sung một số Điều của Chế độ giao nhận, bảo quản, vận chuyển tiền mặt, tài sản quý, giấy tờ có giá ban hành theo Quyết định số 60/2006/QĐ-NHNN; c) Thông tư số 21/2011/TT-NHNN ngày 30/8/2011 sửa đổi, bổ sung Khoản 5 Điều 3 Chế độ giao nhận, bảo quản, vận chuyển tiền mặt, tài sản quý, giấy tờ có giá ban hàn...</td></tr>
+</table>
+<h3>Graph hints</h3>
+<div class='note'>Neo4j chua san sang: thieu [&#x27;NEO4J_URI&#x27;, &#x27;NEO4J_USER&#x27;, &#x27;NEO4J_PASSWORD&#x27;] trong .env — vẫn liệt kê <code>document_id</code>/<code>chunk_id</code> để buổi Graph RAG sau dùng tiếp.</div>
+<table><tr><th>Văn bản</th><th>chunk_id</th><th>Quan hệ trực tiếp</th></tr>
+<tr><td><code>01/2014/TT-NHNN</code></td><td><code>44209_D72_078</code><br><code>44209_D69_075</code><br><code>44209_D43_049</code><br><code>44209_D70_076</code></td><td><span class='same'>—</span></td></tr>
+<tr><td><code>43/2024/TT-NHNN</code></td><td><code>169221_D1K4_006</code></td><td><span class='same'>—</span></td></tr>
+</table>
+<h2>[SEMANTIC]</h2>
+<div class='q'><b>Ai có thẩm quyền quyết định cấp tín dụng vượt hạn mức?</b></div>
+<h3>So sánh Top-1 của 4 cấu hình</h3>
+<table><tr><th>Cấu hình</th><th>Top-1 chunk</th><th>Citation</th></tr>
+<tr><td><code>bm25</code></td><td><code>166170_D135_213</code></td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 135 | 166170_D135_213</td></tr>
+<tr><td><code>dense</code></td><td><code>166170_D136K2_215</code></td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 136 khoản 2 | 166170_D136K2_215</td></tr>
+<tr><td><code>hybrid</code></td><td><code>166170_D52K11_083</code></td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 52 khoản 11 | 166170_D52K11_083</td></tr>
+<tr><td><code>hybrid_rerank</code></td><td><code>186888_D3Kp3_006</code></td><td>Thông tư số 62/2025/TT-NHNN Quy định về hệ thống kiểm soát nội bộ của tổ chức tí</td></tr>
+</table>
+<h3>Hybrid (RRF) — giữ cả hai tín hiệu</h3>
+<table><tr><th>#</th><th>chunk_id</th><th class='num'>bm25_rank</th><th class='num'>dense_rank</th><th class='num'>rrf_score</th><th>Citation</th></tr>
+<tr><td class='num'>1</td><td><code>166170_D52K11_083</code></td><td class='num'>2</td><td class='num'>3</td><td class='num'>0.032002</td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 52 khoản 11 | 166170_</td></tr>
+<tr><td class='num'>2</td><td><code>166170_D136K2_215</code></td><td class='num'>5</td><td class='num'>1</td><td class='num'>0.031778</td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 136 khoản 2 | 166170_</td></tr>
+<tr><td class='num'>3</td><td><code>166170_D135_213</code></td><td class='num'>1</td><td class='num'>6</td><td class='num'>0.031545</td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 135 | 166170_D135_213</td></tr>
+<tr><td class='num'>4</td><td><code>166170_D56_090</code></td><td class='num'>3</td><td class='num'>11</td><td class='num'>0.029958</td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 56 | 166170_D56_090</td></tr>
+<tr><td class='num'>5</td><td><code>166170_D96_174</code></td><td class='num'>4</td><td class='num'>17</td><td class='num'>0.028612</td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 96 | 166170_D96_174</td></tr>
+</table>
+<p class='snip'>Dấu — nghĩa là ứng viên chỉ xuất hiện ở một retriever. Hybrid vẫn giữ lại, đó là lý do tồn tại của nó.</p>
+<h3>Before / After Rerank</h3>
+<table><tr><th>#</th><th>BEFORE (Hybrid/RRF)</th><th class='num'>rrf</th><th></th><th>AFTER (Rerank)</th><th class='num'>rerank</th><th>Đổi chỗ</th></tr>
+<tr><td class='num'>1</td><td><code>166170_D52K11_083</code></td><td class='num'>0.032002</td><td>→</td><td><code>186888_D3Kp3_006</code></td><td class='num'>0.751470</td><td><span class='up'>▲ 13</span></td></tr>
+<tr><td class='num'>2</td><td><code>166170_D136K2_215</code></td><td class='num'>0.031778</td><td>→</td><td><code>166170_D135_213</code></td><td class='num'>0.653021</td><td><span class='up'>▲ 1</span></td></tr>
+<tr><td class='num'>3</td><td><code>166170_D135_213</code></td><td class='num'>0.031545</td><td>→</td><td><code>166170_D56_090</code></td><td class='num'>0.624467</td><td><span class='up'>▲ 1</span></td></tr>
+<tr><td class='num'>4</td><td><code>166170_D56_090</code></td><td class='num'>0.029958</td><td>→</td><td><code>166170_D96_174</code></td><td class='num'>0.624467</td><td><span class='up'>▲ 1</span></td></tr>
+<tr><td class='num'>5</td><td><code>166170_D96_174</code></td><td class='num'>0.028612</td><td>→</td><td><code>186888_D9K6_024</code></td><td class='num'>0.615784</td><td><span class='up'>▲ 12</span></td></tr>
+</table>
+<h3>Top-1 sau rerank — nội dung và citation</h3>
+<table><tr><th>Trường</th><th>Giá trị</th></tr>
+<tr><td><code>rank</code></td><td>1</td></tr>
+<tr><td><code>chunk_id</code></td><td>186888_D3Kp3_006</td></tr>
+<tr><td><code>document_id</code></td><td>186888 (62/2025/TT-NHNN)</td></tr>
+<tr><td><code>hybrid_rank</code></td><td>14</td></tr>
+<tr><td><code>hybrid_score</code></td><td>0.01515152</td></tr>
+<tr><td><code>rerank_score</code></td><td>0.75147</td></tr>
+<tr><td><code>citation</code></td><td>Thông tư số 62/2025/TT-NHNN Quy định về hệ thống kiểm soát nội bộ của tổ chức tín dụng là hợp tác xã, tổ chức tài chính vi mô | Điều 3 | 186888_D3Kp3_006</td></tr>
+<tr><td><code>text</code></td><td class='snip'>Điều 3. Giải thích từ ngữ hạn mức tín dụng, quyết định cấp tín dụng vượt hạn mức, quyết định cơ cấu lại thời hạn trả nợ, quyết định chuyển nhóm nợ. 21. Khoản cấp tín dụng có vấn đề là khoản cấp tín dụng được phân loại vào nhóm nợ từ nhóm 2 trở lên theo quy định của Ngân hàng Nhà nước Việt Nam (sau đây gọi là Ngân hàng Nhà nước) về phân loại tài sản có trong hoạt động của tổ chức tín dụng và khoản cấp tín dụng khác theo quy định nội bộ của tổ chức tín dụng. 22. Hoạt động thuê ngoài là việc tổ chức tín dụng thỏa thuận bằng văn bản về việc thuê cá nhân, tổ chức, tổ chức tín dụng khác, chi nhánh ngân hàng nước ngoài (sau đây gọi là bên thứ ba) để xử lý dữ liệu; nhận biết khách hàng; thực hiện mộ...</td></tr>
+</table>
+<h3>Graph hints</h3>
+<div class='note'>Neo4j chua san sang: thieu [&#x27;NEO4J_URI&#x27;, &#x27;NEO4J_USER&#x27;, &#x27;NEO4J_PASSWORD&#x27;] trong .env — vẫn liệt kê <code>document_id</code>/<code>chunk_id</code> để buổi Graph RAG sau dùng tiếp.</div>
+<table><tr><th>Văn bản</th><th>chunk_id</th><th>Quan hệ trực tiếp</th></tr>
+<tr><td><code>62/2025/TT-NHNN</code></td><td><code>186888_D3Kp3_006</code><br><code>186888_D9K6_024</code></td><td><span class='same'>—</span></td></tr>
+<tr><td><code>32/2024/QH15</code></td><td><code>166170_D135_213</code><br><code>166170_D56_090</code><br><code>166170_D96_174</code></td><td><span class='same'>—</span></td></tr>
+</table>
+<h2>[MIXED]</h2>
+<div class='q'><b>Theo Luật Các tổ chức tín dụng 32/2024/QH15, điều kiện cấp giấy phép thành lập ngân hàng là gì?</b></div>
+<h3>So sánh Top-1 của 4 cấu hình</h3>
+<table><tr><th>Cấu hình</th><th>Top-1 chunk</th><th>Citation</th></tr>
+<tr><td><code>bm25</code></td><td><code>166170_D29K4_037</code></td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 29 khoản 4 | 166170_D29K4_037</td></tr>
+<tr><td><code>dense</code></td><td><code>166170_D32_041</code></td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 32 | 166170_D32_041</td></tr>
+<tr><td><code>hybrid</code></td><td><code>166170_D29K4_037</code></td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 29 khoản 4 | 166170_D29K4_037</td></tr>
+<tr><td><code>hybrid_rerank</code></td><td><code>166170_D29K4_037</code></td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 29 khoản 4 | 166170_D29K4_037</td></tr>
+</table>
+<h3>Hybrid (RRF) — giữ cả hai tín hiệu</h3>
+<table><tr><th>#</th><th>chunk_id</th><th class='num'>bm25_rank</th><th class='num'>dense_rank</th><th class='num'>rrf_score</th><th>Citation</th></tr>
+<tr><td class='num'>1</td><td><code>166170_D29K4_037</code></td><td class='num'>1</td><td class='num'>5</td><td class='num'>0.031778</td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 29 khoản 4 | 166170_D</td></tr>
+<tr><td class='num'>2</td><td><code>166170_D32_041</code></td><td class='num'>5</td><td class='num'>1</td><td class='num'>0.031778</td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 32 | 166170_D32_041</td></tr>
+<tr><td class='num'>3</td><td><code>166170_D8_013</code></td><td class='num'>2</td><td class='num'>4</td><td class='num'>0.031754</td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 8 | 166170_D8_013</td></tr>
+<tr><td class='num'>4</td><td><code>166170_D99_177</code></td><td class='num'>6</td><td class='num'>3</td><td class='num'>0.031025</td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 99 | 166170_D99_177</td></tr>
+<tr><td class='num'>5</td><td><code>166170_D210K1_298</code></td><td class='num'>3</td><td class='num'>7</td><td class='num'>0.030798</td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 210 khoản 1 | 166170_</td></tr>
+</table>
+<p class='snip'>Dấu — nghĩa là ứng viên chỉ xuất hiện ở một retriever. Hybrid vẫn giữ lại, đó là lý do tồn tại của nó.</p>
+<h3>Before / After Rerank</h3>
+<table><tr><th>#</th><th>BEFORE (Hybrid/RRF)</th><th class='num'>rrf</th><th></th><th>AFTER (Rerank)</th><th class='num'>rerank</th><th>Đổi chỗ</th></tr>
+<tr><td class='num'>1</td><td><code>166170_D29K4_037</code></td><td class='num'>0.031778</td><td>→</td><td><code>166170_D29K4_037</code></td><td class='num'>1.103481</td><td><span class='same'>giữ nguyên</span></td></tr>
+<tr><td class='num'>2</td><td><code>166170_D32_041</code></td><td class='num'>0.031778</td><td>→</td><td><code>166170_D29K5_038</code></td><td class='num'>1.038619</td><td><span class='up'>▲ 4</span></td></tr>
+<tr><td class='num'>3</td><td><code>166170_D8_013</code></td><td class='num'>0.031754</td><td>→</td><td><code>166170_D29K1_034</code></td><td class='num'>1.038619</td><td><span class='up'>▲ 12</span></td></tr>
+<tr><td class='num'>4</td><td><code>166170_D99_177</code></td><td class='num'>0.031025</td><td>→</td><td><code>166170_D29K2_035</code></td><td class='num'>1.036298</td><td><span class='up'>▲ 7</span></td></tr>
+<tr><td class='num'>5</td><td><code>166170_D210K1_298</code></td><td class='num'>0.030798</td><td>→</td><td><code>166170_D27_032</code></td><td class='num'>1.032150</td><td><span class='up'>▲ 12</span></td></tr>
+</table>
+<h3>Top-1 sau rerank — nội dung và citation</h3>
+<table><tr><th>Trường</th><th>Giá trị</th></tr>
+<tr><td><code>rank</code></td><td>1</td></tr>
+<tr><td><code>chunk_id</code></td><td>166170_D29K4_037</td></tr>
+<tr><td><code>document_id</code></td><td>166170 (32/2024/QH15)</td></tr>
+<tr><td><code>hybrid_rank</code></td><td>1</td></tr>
+<tr><td><code>hybrid_score</code></td><td>0.03177806</td></tr>
+<tr><td><code>rerank_score</code></td><td>1.103481</td></tr>
+<tr><td><code>citation</code></td><td>Luật Các tổ chức tín dụng số 32/2024/QH15 | Điều 29 khoản 4 | 166170_D29K4_037</td></tr>
+<tr><td><code>text</code></td><td class='snip'>Điều 29. Điều kiện cấp Giấy phép 4. Văn phòng đại diện nước ngoài được cấp Giấy phép khi đáp ứng đầy đủ các điều kiện sau đây: a) Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng là pháp nhân được phép hoạt động ngân hàng ở nước ngoài; b) Quy định pháp luật của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cho phép tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng được thành lập văn phòng đại diện tại Việt Nam....</td></tr>
+</table>
+<h3>Graph hints</h3>
+<div class='note'>Neo4j chua san sang: thieu [&#x27;NEO4J_URI&#x27;, &#x27;NEO4J_USER&#x27;, &#x27;NEO4J_PASSWORD&#x27;] trong .env — vẫn liệt kê <code>document_id</code>/<code>chunk_id</code> để buổi Graph RAG sau dùng tiếp.</div>
+<table><tr><th>Văn bản</th><th>chunk_id</th><th>Quan hệ trực tiếp</th></tr>
+<tr><td><code>32/2024/QH15</code></td><td><code>166170_D29K4_037</code><br><code>166170_D29K5_038</code><br><code>166170_D29K1_034</code><br><code>166170_D29K2_035</code><br><code>166170_D27_032</code></td><td><span class='same'>—</span></td></tr>
+</table>
+<div class='foot'>Sinh bởi <code>scripts/make_demo_page.py</code>. Bản tương tác đầy đủ: <code>streamlit run app.py</code>. Đồ thị đầy đủ xem trong Neo4j Browser bằng <code>cypher/demo_queries.cypher</code>.</div>
+</div></body></html>
