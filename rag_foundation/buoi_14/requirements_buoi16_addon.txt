@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------------------
+# BUOI 16 - Thu vien BO SUNG cho evaluate_rag_pipeline.py
+# (cai them vao .venv da co san cua buoi_14, KHONG thay the requirements.txt)
+#
+# LUU Y QUAN TRONG (Windows): cai theo 2 buoc dươi day, KHONG dung
+# "pip install -r requirements_buoi16_addon.txt" truc tiep, vi ragas khai bao
+# phu thuoc "scikit-network" (goi build tu source, can Microsoft C++ Build
+# Tools tren Windows). Script evaluate_rag_pipeline.py KHONG dung tinh nang
+# nao cua scikit-network (no chi phuc vu ragas.testset - sinh du lieu tu do
+# thi, khong lien quan evaluate() ma bai nay dung), nen an toan de bo qua.
+#
+# Buoc 1 - cai ragas KHONG keo theo dependency (tranh scikit-network):
+#     pip install ragas --no-deps
+#
+# Buoc 2 - cai cac thu vien con lai (khong co scikit-network):
+#     pip install -r requirements_buoi16_addon.txt
+# ---------------------------------------------------------------------------
+
+datasets
+langchain-openai
+langchain-huggingface
+openai
+appdirs
+diskcache
+instructor
+langchain
+langchain-community
+langchain-core
+nest-asyncio
+networkx
+pillow
+pydantic
+rich
+tiktoken
+tqdm
+typer

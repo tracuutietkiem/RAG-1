@@ -1,0 +1,6 @@
+.env
+*.key
+__pycache__/
+*.pyc
+.venv/
+outputs/audit_log_demo.enc

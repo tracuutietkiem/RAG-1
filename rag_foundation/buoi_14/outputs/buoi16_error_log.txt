@@ -1,0 +1,1362 @@
+
+[2026-08-20T16:40:45] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-20T16:40:45] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-20T16:43:10] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-20T16:43:10] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-20T16:43:43] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-20T16:43:43] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-20T16:44:15] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-20T16:44:15] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-20T16:44:47] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-20T16:44:47] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:03:02] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:03:02] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:03:34] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:03:34] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:04:07] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:04:07] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:04:39] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:04:39] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:05:12] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:05:12] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:05:44] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:05:44] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:07:09] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:07:09] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:07:41] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:07:41] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:08:14] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:08:14] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:08:46] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:08:46] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:09:19] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:09:19] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:09:52] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:09:52] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:10:24] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:10:24] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:10:57] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:10:57] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:11:29] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:11:29] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:12:02] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:12:02] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:12:34] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:12:34] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:13:07] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:13:07] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:13:39] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:13:39] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:14:12] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:14:12] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:14:12] STAGE=main
+RuntimeError: Khong sinh duoc cau hoi nao - kiem tra HF_TOKEN / model Generator.
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 475, in main
+    qa_df = generate_golden_dataset()
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 203, in generate_golden_dataset
+    raise RuntimeError("Khong sinh duoc cau hoi nao - kiem tra HF_TOKEN / model Generator.")
+RuntimeError: Khong sinh duoc cau hoi nao - kiem tra HF_TOKEN / model Generator.
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:17:31] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:17:31] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:18:04] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:18:04] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:18:36] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:18:36] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:19:09] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:19:09] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:19:41] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:19:41] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:20:13] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:20:13] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:20:46] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:20:46] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:21:19] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:21:19] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:21:51] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:21:51] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:22:23] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:22:23] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:22:56] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:22:56] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:23:28] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:23:28] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:24:00] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:24:00] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:24:33] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:24:33] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:24:33] STAGE=main
+RuntimeError: Khong sinh duoc cau hoi nao - kiem tra HF_TOKEN / model Generator.
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 475, in main
+    qa_df = generate_golden_dataset()
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 203, in generate_golden_dataset
+    raise RuntimeError("Khong sinh duoc cau hoi nao - kiem tra HF_TOKEN / model Generator.")
+RuntimeError: Khong sinh duoc cau hoi nao - kiem tra HF_TOKEN / model Generator.
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:32:52] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:32:52] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:34:47] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:34:47] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:35:19] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:35:19] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:35:52] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:35:52] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:36:24] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:36:24] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:36:56] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:36:56] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:37:29] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:37:29] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:38:01] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:38:01] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:38:34] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:38:34] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:39:06] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:39:06] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:39:39] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:39:39] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:40:11] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:40:11] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:42:32] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:42:32] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:43:04] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:43:04] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:43:37] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:43:37] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:44:09] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:44:09] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:44:42] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:44:42] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:45:14] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:45:14] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:45:47] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:45:47] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:46:19] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:46:19] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:46:52] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:46:52] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:47:24] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:47:24] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:47:57] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:47:57] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:48:29] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:48:29] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:49:02] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:49:02] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:49:24] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:49:24] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:49:34] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:49:34] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:49:34] STAGE=main
+RuntimeError: Khong sinh duoc cau hoi nao - kiem tra HF_TOKEN / model Generator.
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 475, in main
+    qa_df = generate_golden_dataset()
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 203, in generate_golden_dataset
+    raise RuntimeError("Khong sinh duoc cau hoi nao - kiem tra HF_TOKEN / model Generator.")
+RuntimeError: Khong sinh duoc cau hoi nao - kiem tra HF_TOKEN / model Generator.
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:49:56] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:49:56] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:51:32] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:51:32] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:52:05] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:52:05] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:52:37] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:52:37] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:53:10] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:53:10] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:53:42] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:53:42] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:54:15] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:54:15] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:54:47] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:54:47] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:55:20] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:55:20] STAGE=generate_golden_dataset:parse
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 179, in generate_golden_dataset
+    raw = call_llm(GENERATOR_MODEL, system, user, temperature=0.4, max_tokens=1200)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:58:07] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:58:07] STAGE=generator_answer[0]
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 245, in run_rag_pipeline
+    answer = call_llm(GENERATOR_MODEL, RAG_SYSTEM_PROMPT, user, temperature=0.0,
+                       max_tokens=600)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:59:24] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T06:59:24] STAGE=generator_answer[1]
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 245, in run_rag_pipeline
+    answer = call_llm(GENERATOR_MODEL, RAG_SYSTEM_PROMPT, user, temperature=0.0,
+                       max_tokens=600)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T07:00:59] STAGE=call_llm[Qwen/Qwen3.5-9B:deepinfra]
+APIStatusError: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+NoneType: None
+
+--------------------------------------------------------------------------------
+
+[2026-08-21T07:00:59] STAGE=generator_answer[2]
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+Traceback (most recent call last):
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 245, in run_rag_pipeline
+    answer = call_llm(GENERATOR_MODEL, RAG_SYSTEM_PROMPT, user, temperature=0.0,
+                       max_tokens=600)
+  File "D:\01_CONG_VIEC\phan_mem_tra_cuVB\RAG\rag_foundation\buoi_14\scripts\evaluate_rag_pipeline.py", line 106, in call_llm
+    raise RuntimeError(f"Goi model {model} that bai sau {max_retries} lan thu: {last_exc}")
+RuntimeError: Goi model Qwen/Qwen3.5-9B:deepinfra that bai sau 4 lan thu: Error code: 402 - {'error': 'You have depleted your monthly included credits. Purchase pre-paid credits to continue using Inference Providers. Alternatively, subscribe to PRO to get 20x more included usage.'}
+
+--------------------------------------------------------------------------------
