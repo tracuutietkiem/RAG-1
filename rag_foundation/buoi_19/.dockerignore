@@ -1,0 +1,8 @@
+# Buoi 19 - KHONG duoc de secret/API key hay du lieu lon lot vao Docker image.
+.env
+.env.*
+__pycache__/
+*.pyc
+outputs/
+.venv/
+*.log

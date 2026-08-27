@@ -1,0 +1,60 @@
+# Buoi 19 - Docker Compose orchestrate 2 container:
+#   1. ollama  (agribank-ollama-server): Ollama Engine, chay Local SLM Qwen3:0.6b.
+#   2. app     (agribank-ai-app): Streamlit + RAG Engines (UC1-UC4).
+#
+# Chay: docker compose up -d
+# Tai model lan dau: docker exec -it agribank-ollama-server ollama pull qwen3:0.6b
+#
+# GHI CHU BAO MAT: file .env (chua GEMINI_API_KEY that neu dung provider=gemini)
+# CHI duoc doc luc container KHOI DONG qua "env_file" (khong bake vao image -
+# xem Dockerfile/.dockerignore). Du lieu that cua buoi_14/17/18 duoc mount
+# READ-ONLY (":ro"), KHONG copy/nhan ban vao container hay vao image.
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: agribank-ollama-server
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+    networks:
+      - agribank-ai-network
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agribank-ai-app
+    ports:
+      - "8501:8501"
+    environment:
+      - LLM_PROVIDER=ollama
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_MODEL=qwen3:0.6b
+    env_file:
+      - ./.env
+    volumes:
+      # Code + du lieu TAI SU DUNG tu cac buoi truoc, read-only. Duong dan
+      # container ("/buoi_14", "/buoi_17", "/buoi_18") KHOP CHINH XAC voi
+      # cach scripts/*.py trong buoi_19 resolve "../buoi_14", "../buoi_17",
+      # "../buoi_18" tu BASE_DIR=/app (WORKDIR trong Dockerfile).
+      - ../buoi_14:/buoi_14:ro
+      - ../buoi_17:/buoi_17:ro
+      - ../buoi_18:/buoi_18:ro
+      # outputs/ cua chinh Buoi 19 - GHI DUOC (audit log, CSV/MD report) va
+      # PERSIST ra ngoai container (khong mat khi container bi xoa/tao lai).
+      - ./outputs:/app/outputs
+    depends_on:
+      - ollama
+    restart: unless-stopped
+    networks:
+      - agribank-ai-network
+
+networks:
+  agribank-ai-network:
+    driver: bridge
+
+volumes:
+  ollama_data:

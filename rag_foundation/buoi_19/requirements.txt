@@ -1,0 +1,27 @@
+# Buoi 19 - requirements.txt cho Docker image "agribank-ai-app".
+#
+# QUYET DINH THIET KE QUAN TRONG: KHONG dua sentence-transformers/torch vao
+# day. buoi_14/src/dense_retriever.py va src/reranker.py da co san co che
+# fallback OFFLINE (LSA/TF-IDF + lexical rerank, xem outputs/*_report.md cua
+# Buoi 14) khi khong co sentence-transformers - da kiem chung hoat dong dung
+# trong buoi_19 (xem README.md). torch/sentence-transformers nang ~2GB+ va
+# di nguoc tinh than "Local SLM nhe, offline hoan toan" cua Buoi 19; neu can
+# dense retrieval that, them 2 dong nay va rebuild image tren may co du
+# dung luong/mang on dinh.
+
+streamlit>=1.61,<2
+pandas>=2.0
+requests>=2.31
+python-dotenv>=1.2,<2
+google-genai>=1.0
+
+# BM25 / lexical retrieval (dung boi UC2/UC3/UC4, tai su dung tu Buoi 14)
+rank-bm25==0.2.2
+
+# Fallback offline (LSA/TF-IDF) khi khong co sentence-transformers
+numpy>=1.26
+scikit-learn>=1.4
+
+# Neo4j status check (UC2 compliance_gap.py - bao cao trang thai THAT, khong
+# bat buoc Neo4j phai chay; neu khong ket noi duoc se bao ro trong report)
+neo4j>=5.24,<7
