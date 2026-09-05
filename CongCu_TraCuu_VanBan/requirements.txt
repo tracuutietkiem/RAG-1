@@ -7,6 +7,11 @@
 # Moi buoi co .venv doc lap nen buoi nay van phai cai lai.
 # ---------------------------------------------------------------------------
 
+# --- Streamlit Community Cloud: cai torch CPU truc tiep qua requirements.txt ---
+# (moi truong deploy khong chay duoc lenh "pip install torch" rieng nhu tren)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2,<3
+
 # Chuan hoa corpus: parse HTML van ban phap luat
 beautifulsoup4>=4.12
 lxml>=5.0
