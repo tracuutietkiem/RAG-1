@@ -6,6 +6,11 @@ __pycache__/
 
 # Secrets — TUYỆT ĐỐI không commit API key (LlamaParse, Gemini, ...)
 .env
+.env.txt
+**/.env.txt
+.env.*
+!.env.example
+!.env.txt.example
 
 # Cơ sở dữ liệu vector cục bộ — sinh lại được bằng lệnh index, không cần lưu trong repo
 **/storage/chroma/
