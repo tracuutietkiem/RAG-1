@@ -15,6 +15,17 @@ from pathlib import Path
 import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+import os  # noqa: E402
+
+# Streamlit Cloud: dua secrets (Settings > Secrets) vao os.environ truoc khi
+# import config, de vd. RERANKER_BACKEND=fallback co hieu luc tren cloud
+# (RAM mien phi khong du tai Cross-Encoder ~2,27 GB).
+try:
+        for _k, _v in st.secrets.items():
+                    os.environ.setdefault(str(_k), str(_v))
+except Exception:  # noqa: BLE001
+        pass
 import config  # noqa: E402
 from src import corpus, graph_hints, pipeline  # noqa: E402
 
